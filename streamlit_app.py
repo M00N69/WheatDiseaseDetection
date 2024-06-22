@@ -1,7 +1,7 @@
 
 import streamlit as st
 
-from PIl import Image
+from PIL import Image
 
 with st.container():
 	col = st.columns([0.2,0.8])
