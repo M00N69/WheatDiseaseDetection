@@ -59,9 +59,5 @@ if analyse:
 		label = res[0].probs.top5
 		conf = res[0].probs.top5conf
 		conf = conf.tolist()
-		col1,col2 = st.columns(2)
-		col1.write(f'''{res[0].names[label[0]].title()}
-  Confidence level: {str(conf[0])}''')
-		col2.write(res[0].names[label[1]].title() +' with '+ str(conf[1])+' Confidence')
-
-      
+		st.write('Disease:' + str(res[0].names[label[0]].title()))
+		st.write('Confidence level:'+ str(conf[0]))
