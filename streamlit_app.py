@@ -1,7 +1,7 @@
 
 import streamlit as st
 
-from Pillow import Image
+from PIl import Image
 
 with st.container():
 	col = st.columns([0.2,0.8])
