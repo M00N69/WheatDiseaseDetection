@@ -1,6 +1,8 @@
 
 import streamlit as st
 
+from Pillow import Image
+
 with st.container():
 	col = st.columns([0.2,0.8])
 	col[0].image('logo.png')
@@ -28,21 +30,36 @@ with st.container(border=True):
                 st.image('tan_spot_24.jpeg')
                 st.write('Tan Spot')
                 
-        st.write('''It imports ultralytics and uses the YOLOv8 model to train
-and test data. YOLOv8, an evolution in the YOLO (You Only Look Once)
-series of real time detection model. Its core functionality revolves
-around a single-stage detector that processes images in one pass through
-the network, making it highly efficient for real-time applications.''')
+        st.write('''It imports ultralytics and uses the YOLOv8 model to train and test data. 
+	YOLOv8 is an evolution in the YOLO (You Only Look Once) series of real time detection model. 
+ 	Its core functionality revolves around a single-stage detector that processes images in one pass through the network, making it highly efficient for real-time applications.''')
         st.subheader('Steps to use the app')
         st.markdown('''
         - Take a clear image
         - Upload the image
-        - Analyse the image and the name of the disease will be written in the result panel below''')
-
-
+        - Analyse the image and the name of the disease will be displayed in the result panel below''')
+	
+@st.cache_resource
+def models():
+	mod = YOLO('best.pt')
+	return mod
+	
 with st.container():
-        st.file_uploader('Upload your image',type=['jpg','png','jpeg'])
-        st.button('Analyse')
-
+        img = st.file_uploader('Upload your image',type=['jpg','png','jpeg'])
+        analyse = st.button('Analyse')
+	
+if analyse:
+	if img is not None:
+		img = Image.open(img)
+		st.markdown('Image Visualization')
+		st.image(img)
+		st.header('Melanoma Form Classification')
+		res = model.predict(img)
+		label = res[0].probs.top5
+		conf = res[0].probs.top5conf
+		conf = conf.tolist()
+		col1,col2 = st.columns(2)
+		col1.subheader(res[0].names[label[0]].title() +' with '+ str(conf[0])+' Confidence')
+		col2.subheader(res[0].names[label[1]].title() +' with '+ str(conf[1])+' Confidence')
 
       
