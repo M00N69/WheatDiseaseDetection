@@ -60,7 +60,7 @@ if analyse:
 		conf = res[0].probs.top5conf
 		conf = conf.tolist()
 		col1,col2 = st.columns(2)
-		col1.write(res[0].names[label[0]].title() +' with '+ str(conf[0])+' Confidence')
+		col1.write(res[0].names[label[0]].title() +' \n '+'Confidence level:'+ str(conf[0]))
 		col2.write(res[0].names[label[1]].title() +' with '+ str(conf[1])+' Confidence')
 
       
