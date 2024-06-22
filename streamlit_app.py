@@ -53,7 +53,7 @@ if analyse:
 		img = Image.open(img)
 		st.markdown('Image Visualization')
 		st.image(img)
-		st.header('Melanoma Form Classification')
+		st.subheader('This wheat crop has been affected by:')
 		model = models()
 		res = model.predict(img)
 		label = res[0].probs.top5
