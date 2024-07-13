@@ -10,9 +10,7 @@ with st.container():
 	
 with st.container(border=True):
         st.header('About the App')
-        st.write('''This Wheat Disease Detection App identifies the disease in a wheat crop and suggests a cure.
-        Wheat is attacked by many different diseases caused by various pathogens and pests.
-        Around 21.5% of wheat production is lost to these diseases annually, totalling losses of 209 million tonnes worth $31 billion.''')
+        st.write('''This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.''')
         col = st.columns(5)
         with col[0]:
                 st.image('black_rust_1.jpeg')
