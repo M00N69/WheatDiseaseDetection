@@ -10,11 +10,14 @@ with st.container():
 	
 with st.container(border=True):
         st.header('About the App')
-        st.write('''This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.''')
+        st.write('''This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
+	recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
+ 	resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.''')
+	
         col = st.columns(5)
         with col[0]:
-                st.image('black_rust_1.jpeg')
-                st.write('Black Rust')
+                st.image('black_rust_1.jpeg',caption='Black Rust')
+		# caption in the image
         with col[1]:
                 st.image('blast_1.jpeg')
                 st.write('Blast')
@@ -27,7 +30,8 @@ with st.container(border=True):
         with col[4]:
                 st.image('tan_spot_24.jpeg')
                 st.write('Tan Spot')
-        col1 = st.columns(5)
+		
+	col1 = st.columns(5)
         with col1[0]:
                 st.image('black_rust_1.jpeg')
                 st.write('Black Rust')
@@ -43,6 +47,7 @@ with st.container(border=True):
         with col1[4]:
                 st.image('tan_spot_24.jpeg')
                 st.write('Tan Spot')
+
 	col2 = st.columns(5)
         with col2[0]:
                 st.image('black_rust_1.jpeg')
