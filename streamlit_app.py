@@ -27,7 +27,38 @@ with st.container(border=True):
         with col[4]:
                 st.image('tan_spot_24.jpeg')
                 st.write('Tan Spot')
-                
+        col1 = st.columns(5)
+        with col1[0]:
+                st.image('black_rust_1.jpeg')
+                st.write('Black Rust')
+        with col1[1]:
+                st.image('blast_1.jpeg')
+                st.write('Blast')
+        with col1[2]:
+                st.image('smut_test_0.png')
+                st.write('Smut')
+        with col1[3]:
+                st.image('fusarium_head_blight_test_0.png')
+                st.write('Fusarium Head Blight')
+        with col1[4]:
+                st.image('tan_spot_24.jpeg')
+                st.write('Tan Spot')
+	col2 = st.columns(5)
+        with col2[0]:
+                st.image('black_rust_1.jpeg')
+                st.write('Black Rust')
+        with col2[1]:
+                st.image('blast_1.jpeg')
+                st.write('Blast')
+        with col2[2]:
+                st.image('smut_test_0.png')
+                st.write('Smut')
+        with col2[3]:
+                st.image('fusarium_head_blight_test_0.png')
+                st.write('Fusarium Head Blight')
+        with col2[4]:
+                st.image('tan_spot_24.jpeg')
+                st.write('Tan Spot')
         st.write('''It imports ultralytics and uses the YOLOv8 model to train and test data. 
 	YOLOv8 is an evolution in the YOLO (You Only Look Once) series of real time detection model. 
  	Its core functionality revolves around a single-stage detector that processes images in one pass through the network, making it highly efficient for real-time applications.''')
