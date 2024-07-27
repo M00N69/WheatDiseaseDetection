@@ -91,14 +91,14 @@ if analyse:
 		st.write('Disease: ' + str(res[0].names[label[0]].title()))
 		st.write('Confidence level: '+ str(conf[0]))
 		if str(res[0].names[label[0]].title()) == 'Aphid':
-			st.markdown('''Aphid are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead
-Causes:
-- Aphids infest wheat plants by sucking sap, leading to reduced yield.
-Preventions:
+			st.write('''Aphid are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead''')
+			st.markdown('''Causes:
+- Aphids infest wheat plants by sucking sap, leading to reduced yield.''')
+			st.markdown('''Preventions:
 - Plant resistant wheat varieties.
 - Use insecticidal soaps or neem oil.
-- Encourage natural predators like ladybugs.
-Remedies:
+- Encourage natural predators like ladybugs.''')
+			st.markdown('''Remedies:
 - Apply insecticides if infestations are severe.
 - Use cultural practices like crop rotation to disrupt aphid life cycles.''')
 
