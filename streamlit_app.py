@@ -60,14 +60,14 @@ if analyse:
 		st.write('Disease: ' + str(res[0].names[label[0]].title()))
 		st.write('Confidence level: '+ str(conf[0]))
 		if str(res[0].names[label[0]].title()) == 'Aphid':
-			st.write('''Aphid are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead
+			st.markdown('''Aphid are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead
 Causes:
-Aphids infest wheat plants by sucking sap, leading to reduced yield.
+- Aphids infest wheat plants by sucking sap, leading to reduced yield.
 Preventions:
-Plant resistant wheat varieties.
-Use insecticidal soaps or neem oil.
-Encourage natural predators like ladybugs.
+- Plant resistant wheat varieties.
+- Use insecticidal soaps or neem oil.
+- Encourage natural predators like ladybugs.
 Remedies:
-Apply insecticides if infestations are severe.
-Use cultural practices like crop rotation to disrupt aphid life cycles.''')
+- Apply insecticides if infestations are severe.
+- Use cultural practices like crop rotation to disrupt aphid life cycles.''')
 
