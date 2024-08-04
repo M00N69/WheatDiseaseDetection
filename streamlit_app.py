@@ -103,4 +103,159 @@ if analyse:
             - Apply insecticides if infestations are severe.
             - Use cultural practices like crop rotation to disrupt aphid life cycles.''')
 
+        if str(res[0].names[label[0]].title()) == 'Brown Rust':
+            st.write('''Brown rust tends to develops in late summer and results in a significant loss of green leaf area and, hence, yield and specific weight.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Puccinia triticina.''')
+            st.markdown('''Preventions:
+            - Plant resistant wheat varieties. 
+            - Apply fungicides as a preventive measure.''')
+            st.markdown('''Remedies:
+            - Use fungicides when the disease is detected early.
+            - Remove and destroy infected plant debris.''')
+
+        if str(res[0].names[label[0]].title()) == 'Mite':
+            st.write('''Mites are tiny, reddish-brown to black, eight-legged arachnids that infest wheat crops, particularly in hot, dry conditions. 
+            They spread via wind, machinery, and infected plant material.''')
+            st.markdown('''Causes:
+            - Mites infest wheat plants, sucking sap and transmitting viruses.''')
+            st.markdown('''Preventions:
+            - Use mite-resistant wheat varieties.
+            - Apply miticides if necessary.
+            - Proper irrigation can help reduce the risk of infestation.''')
+            st.markdown('''Remedies:
+            - Apply appropriate miticides.
+            - Maintain proper field hygiene.''')
+
+        if str(res[0].names[label[0]].title()) == 'Stem Fly':
+            st.write('''The wheat stem sawfly (Cephus cinctus) is a primitive, wasp-like insect from the family Cephidae in the order Hymenoptera (i.e. bees, wasps, and ants). 
+            Its larvae are significant pests of spring and winter wheat, leading to reduced quality and yield of the crops.''')
+            st.markdown('''Causes:
+            - Stem flies lay eggs on wheat plants, and larvae burrow into stems.''')
+            st.markdown('''Preventions:
+            - Plant early to avoid peak stem fly activity.
+            - Use insecticides as a preventive measure.''')
+            st.markdown('''Remedies:
+            - Apply insecticides at the larval stage.
+            - Remove and destroy infested plants.''')
+
+        if str(res[0].names[label[0]].title()) == 'Black Rust':
+            st.write('''Black Rust affects the stems and leaves of wheat plants, causing significant yield losses and economic damage. 
+            It produces black or dark brown raised pustules containing rust-colored spores. If not controlled, it can quickly spread and devastate entire fields.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Puccinia graminis.''')
+            st.markdown('''Preventions:
+            - Plant resistant wheat varieties.
+            - Use fungicides preventively.''')
+            st.markdown('''Remedies:
+            - Apply fungicides when symptoms appear.
+            - Destroy infected plant debris.''')
+
+        if str(res[0].names[label[0]].title()) == 'Common Root Rot':
+            st.write('''Wheat root rots are caused by various fungi that invade the roots and crown tissue of wheat plants. 
+            Infected plants have destroyed crown and root tissues, resulting in halted water and nutrient uptake.''')
+            st.markdown('''Causes:
+            - Caused by fungi such as Bipolaris sorokiniana.''')
+            st.markdown('''Preventions:
+            - Use disease-free seeds.
+            - Implement crop rotation with non-host crops.''')
+            st.markdown('''Remedies:
+            - Apply appropriate fungicides.
+            - Improve soil drainage.''')
+
+        if str(res[0].names[label[0]].title()) == 'Leaf Blight':
+            st.write('''Reddish brown oval spots appear on young seedlings with bright yellow margins. In severe cases, several spots coalesce to cause drying of leaves.''')
+            st.markdown('''Causes:
+            - Caused by fungi such as Bipolaris and Alternaria species.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Use fungicides preventively.''')
+            st.markdown('''Remedies:
+            - Apply fungicides at the onset of symptoms.
+            - Remove and destroy infected plant residues.''')
+
+        if str(res[0].names[label[0]].title()) == 'Septoria':
+            st.write('''Septoria tritici blotch survives on stubble between seasons. 
+            In late autumn and early winter, rain or heavy dew triggers the release of wind-borne ascospores from perithecia in the stubble, allowing the disease to spread over large distances.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Septoria tritici.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Use fungicides preventively.''')
+            st.markdown('''Remedies:
+            - Apply fungicides when symptoms appear.
+            - Remove and destroy infected leaves.''')
+
+        if str(res[0].names[label[0]].title()) == 'Tan Spot':
+            st.write('''Tan spot, also known as yellow leaf spot, is an economically significant disease in wheat grown in the U.S. and Canada. 
+            It initially appears as small, brown spots on the leaves of susceptible wheat varieties.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Pyrenophora tritici-repentis.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Use crop rotation and clean seed.''')
+            st.markdown('''Remedies:
+            - Apply fungicides at early signs of infection.
+            - Remove and destroy infected plant debris.''')
+
+        if str(res[0].names[label[0]].title()) == 'Blast':
+            st.write('''Wheat blast is a devastating disease that emerged in Brazil in the 1980s and has since spread to nearby and distant countries. 
+            Climate change is expected to facilitate its spread, particularly in tropical regions.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Magnaporthe oryzae.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Avoid excessive nitrogen fertilization.''')
+            st.markdown('''Remedies:
+            - Apply fungicides at the first sign of symptoms.
+            - Practice crop rotation.''')
+
+        if str(res[0].names[label[0]].title()) == 'Fusarium Head Blight':
+            st.write('''Fusarium Head Blight is a severe fungal disease leading to contaminated grain with mycotoxins. 
+            It results in reduced yield, poor grain quality, and significant economic losses for wheat producers.''')
+            st.markdown('''Causes:
+            - Caused by fungi of the Fusarium species.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Use crop rotation and clean seed.''')
+            st.markdown('''Remedies:
+            - Apply fungicides at the flowering stage.
+            - Avoid planting in fields with high Fusarium pressure.''')
+
+        if str(res[0].names[label[0]].title()) == 'Mildew':
+            st.write('''Powdery mildew in wheat begins as surface patches of white mycelium and can eventually cover the entire leaf, with mature infections showing black spore cases. 
+            This wind-borne disease thrives in cool, wet weather and can cause yield losses of up to 40%.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Blumeria graminis.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Apply fungicides preventively.''')
+            st.markdown('''Remedies:
+            - Apply fungicides when symptoms appear.
+            - Ensure good air circulation in the field.''')
+
+        if str(res[0].names[label[0]].title()) == 'Smut':
+            st.write('''Loose smut has a wide distribution and can occur anywhere wheat is produced. 
+            Mild symptoms may be present prior to heading, including yellowish leaf streaks and stiff, dark green leaves.''')
+            st.markdown('''Causes:
+            - Caused by fungi like the Ustilago species.''')
+            st.markdown('''Preventions:
+            - Use smut-resistant varieties.
+            - Treat seeds with fungicides before planting.''')
+            st.markdown('''Remedies:
+            - Destroy infected plants.
+            - Use appropriate fungicides.''')
+
+        if str(res[0].names[label[0]].title()) == 'Yellow Rust':
+            st.write('''The characteristic symptom of yellow rust is of parallel rows of yellowish orange coloured pustules on the leaves of adult plants. 
+            Epidemics of yellow rust often start as individual plants, usually in the autumn.''')
+            st.markdown('''Causes:
+            - Caused by the fungus Puccinia striiformis.''')
+            st.markdown('''Preventions:
+            - Plant resistant varieties.
+            - Apply fungicides preventively.''')
+            st.markdown('''Remedies:
+            - Apply fungicides when symptoms appear.
+            - Remove and destroy infected plant debris.''')
+
 
