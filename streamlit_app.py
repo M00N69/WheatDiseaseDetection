@@ -36,7 +36,7 @@ with st.container():
     with col1[1]:
         st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
     with col1[2]:
-        st.image('septoria_5.png', caption='Septoria')
+        st.image('septoria_5.jpeg.png', caption='Septoria')
     with col1[3]:
         st.image('tan_spot_24.jpeg', caption='Tan Spot')
     with col1[4]:
