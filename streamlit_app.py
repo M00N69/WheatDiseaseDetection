@@ -20,45 +20,38 @@ with st.container():
     # Display disease images with captions
     col = st.columns(5)
     with col[0]:
-        st.image('black_rust_1.jpeg', caption='Black Rust')
+        st.image('', caption='Aphid')
     with col[1]:
-        st.image('blast_1.jpeg', caption='Blast')
+        st.image('', caption='Brown Rust')
     with col[2]:
-        st.image('smut_test_0.png', caption='Smut')
+        st.image('', caption='Mite')
     with col[3]:
-        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
+        st.image('', caption='Stem Fly')
     with col[4]:
-        st.image('tan_spot_24.jpeg', caption='Tan Spot')
+        st.image('black_rust_1.jpeg', caption='Black Rust')
         
     col1 = st.columns(5)
     with col1[0]:
-        st.image('black_rust_1.jpeg', caption='Black Rust')
+        st.image('', caption='Common Root Rot')
     with col1[1]:
-        st.image('blast_1.jpeg', caption='Blast')
+        st.image('', caption='Leaf Blight')
     with col1[2]:
-        st.image('smut_test_0.png', caption='Smut')
+        st.image('', caption='Septoria')
     with col1[3]:
-        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-    with col1[4]:
         st.image('tan_spot_24.jpeg', caption='Tan Spot')
-        
-    col2 = st.columns(5)
-    with col2[0]:
-        st.image('black_rust_1.jpeg', caption='Black Rust')
-    with col2[1]:
+    with col1[4]:
         st.image('blast_1.jpeg', caption='Blast')
+        
+    col2 = st.columns(4)
+    with col2[0]:
+        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
+    with col2[1]:
+        st.image('', caption='Mildew')
     with col2[2]:
         st.image('smut_test_0.png', caption='Smut')
     with col2[3]:
-        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-    with col2[4]:
-        st.image('tan_spot_24.jpeg', caption='Tan Spot')
+        st.image('', caption='Yellow Rust')
         
-    st.write('''
-        It imports ultralytics and uses the YOLOv8 model to train and test data. 
-        YOLOv8 is an evolution in the YOLO (You Only Look Once) series of real-time detection models. 
-        Its core functionality revolves around a single-stage detector that processes images in one pass through the network, making it highly efficient for real-time applications.
-    ''')
     st.subheader('Steps to use the app')
     st.markdown('''
         - Take a clear image
