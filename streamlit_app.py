@@ -20,23 +20,23 @@ with st.container():
     # Display disease images with captions
     col = st.columns(5)
     with col[0]:
-        st.image('', caption='Aphid')
+        st.image('aphid_1.jpeg', caption='Aphid')
     with col[1]:
-        st.image('', caption='Brown Rust')
+        st.image('brown_rust_3.jpeg', caption='Brown Rust')
     with col[2]:
-        st.image('', caption='Mite')
+        st.image('mite_26.jpeg', caption='Mite')
     with col[3]:
-        st.image('', caption='Stem Fly')
+        st.image('stem_fly_30.jpeg', caption='Stem Fly')
     with col[4]:
         st.image('black_rust_1.jpeg', caption='Black Rust')
         
     col1 = st.columns(5)
     with col1[0]:
-        st.image('', caption='Common Root Rot')
+        st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
     with col1[1]:
-        st.image('', caption='Leaf Blight')
+        st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
     with col1[2]:
-        st.image('', caption='Septoria')
+        st.image('septoria_5.png', caption='Septoria')
     with col1[3]:
         st.image('tan_spot_24.jpeg', caption='Tan Spot')
     with col1[4]:
@@ -46,11 +46,11 @@ with st.container():
     with col2[0]:
         st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
     with col2[1]:
-        st.image('', caption='Mildew')
+        st.image('mildew_82.png', caption='Mildew')
     with col2[2]:
         st.image('smut_test_0.png', caption='Smut')
     with col2[3]:
-        st.image('', caption='Yellow Rust')
+        st.image('yellow_rust_256.png', caption='Yellow Rust')
         
     st.subheader('Steps to use the app')
     st.markdown('''
