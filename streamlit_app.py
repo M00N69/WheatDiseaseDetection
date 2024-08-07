@@ -87,7 +87,7 @@ if analyse:
         if str(res[0].names[label[0]].title()) == 'Aphid':
             st.write('''Aphids are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead.''')
             st.markdown('''Causes:
-            - Aphids infest wheat plants by sucking sap, leading to reduced yield.''')
+            \n- Aphids infest wheat plants by sucking sap, leading to reduced yield.''')
             st.markdown('''Preventions:
             - Plant resistant wheat varieties.
             - Use insecticidal soaps or neem oil.
