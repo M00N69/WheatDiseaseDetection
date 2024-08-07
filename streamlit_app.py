@@ -4,6 +4,24 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
+def set_language():
+    if f"selected_language" in st.session_state:
+        lang = st.session_state[f"selected_language"]
+        # st.experimental_set_query_params(**{f"lang": lang})
+        return lang
+    return "English"
+
+languages = ["English", "Punjabi", "Hindi"]
+sel_lang = st.radio(
+	"Language",
+	options=languages,
+	horizontal=True,
+	key="selected_language",
+)
+selected_language = set_language()
+
+st.markdown(f"Selected Language: {selected_language}")
+
 # Logo and title section
 with st.container():
     col = st.columns([3,9])
@@ -14,14 +32,35 @@ with st.container():
     col[1].text('')
     col[1].markdown("<h1 style='text-align: center; color: white;'>WheatCheck - Wheat Disease Detection</h1>", unsafe_allow_html=True)
 
-# About the app section
-with st.container():
-    st.header('About the App')
-    st.write('''
-        This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
-        recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
-        resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
-    ''')
+if selected_language == "English":
+    # About the app section
+    with st.container():
+        st.header('About the App')
+        st.write('''
+            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
+            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
+            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
+        ''')
+
+elif selected_language == "Hindi":
+    # About the app section
+    with st.container():
+        st.header('About the App')
+        st.write('''
+            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
+            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
+            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
+        ''')
+
+elif selected_language == "Punjabi":
+    # About the app section
+    with st.container():
+        st.header('About the App')
+        st.write('''
+            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
+            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
+            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
+        ''')
     
     # Display disease images with captions
     col = st.columns(5)
