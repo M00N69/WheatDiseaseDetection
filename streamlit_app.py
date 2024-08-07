@@ -62,47 +62,47 @@ elif selected_language == "Punjabi":
             resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
         ''')
     
-    # Display disease images with captions
-    col = st.columns(5)
-    with col[0]:
-        st.image('aphid_1.jpeg', caption='Aphid')
-    with col[1]:
+# Display disease images with captions
+col = st.columns(5)
+with col[0]:
+	st.image('aphid_1.jpeg', caption='Aphid')
+with col[1]:
         st.image('brown_rust_3.jpeg', caption='Brown Rust')
-    with col[2]:
-        st.image('mite_26.jpeg', caption='Mite')
-    with col[3]:
+with col[2]:
+	st.image('mite_26.jpeg', caption='Mite')
+with col[3]:
         st.image('stem_fly_30.jpeg', caption='Stem Fly')
-    with col[4]:
+with col[4]:
         st.image('black_rust_1.jpeg', caption='Black Rust')
         
-    col1 = st.columns(5)
-    with col1[0]:
+col1 = st.columns(5)
+with col1[0]:
         st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
-    with col1[1]:
+with col1[1]:
         st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
-    with col1[2]:
+with col1[2]:
         st.image('septoria_5.jpeg.png', caption='Septoria')
-    with col1[3]:
+with col1[3]:
         st.image('tan_spot_24.jpeg', caption='Tan Spot')
-    with col1[4]:
+with col1[4]:
         st.image('blast_1.jpeg', caption='Blast')
         
-    col2 = st.columns(4)
-    with col2[0]:
+col2 = st.columns(4)
+with col2[0]:
         st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-    with col2[1]:
+with col2[1]:
         st.image('mildew_82.png', caption='Mildew')
-    with col2[2]:
+with col2[2]:
         st.image('smut_test_0.png', caption='Smut')
-    with col2[3]:
+with col2[3]:
         st.image('yellow_rust_256.png', caption='Yellow Rust')
         
-    st.subheader('Steps to use the app')
-    st.markdown('''
-        - Take a clear image
-        - Upload the image
-        - Analyze the image and the name of the disease will be displayed in the result panel below
-    ''')
+st.subheader('Steps to use the app')
+st.markdown('''
+- Take a clear image
+- Upload the image
+- Analyze the image and the name of the disease will be displayed in the result panel below
+''')
 
 # Load the model
 @st.cache_resource
