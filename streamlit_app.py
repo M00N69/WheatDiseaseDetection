@@ -2,6 +2,8 @@ from ultralytics import YOLO
 import streamlit as st
 from PIL import Image
 
+st.set_page_config(layout="wide")
+
 # Logo and title section
 with st.container():
     col = st.columns([0.2, 0.8])
