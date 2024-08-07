@@ -6,9 +6,13 @@ st.set_page_config(layout="wide")
 
 # Logo and title section
 with st.container():
-    col = st.columns([0.2, 0.8])
+    col = st.columns([3,9])
     col[0].image('logo.png')
-    col[1].title('WheatCheck - Wheat Disease Detection')
+    col[1].text('')
+    col[1].text('')
+    col[1].text('')
+    col[1].text('')
+    col[1].markdown("<h1 style='text-align: center; color: white;'>Wheat Disease Detection</h1>", unsafe_allow_html=True)
 
 # About the app section
 with st.container():
