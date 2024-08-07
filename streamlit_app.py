@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 with st.container():
     col = st.columns([0.2, 0.8])
     col[0].image('logo.png')
-    col[1].title('WHEATCHECK - Wheat Disease Detection')
+    col[1].title('WheatCheck - Wheat Disease Detection')
 
 # About the app section
 with st.container():
