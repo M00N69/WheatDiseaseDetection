@@ -37,9 +37,10 @@ if selected_language == "English":
     with st.container():
         st.header('About the App')
         st.write('''
-            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
-            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
-            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
+	Wheat is a majorWheat suffers from numerous diseases caused by various pathogens and pests, 
+        resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
+        This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
+        recommendations for treatment.
         ''')
 
 elif selected_language == "Hindi":
@@ -63,7 +64,7 @@ elif selected_language == "Punjabi":
         ''')
     
 # Display disease images with captions
-col = st.columns(5)
+col = st.columns(7)
 with col[0]:
 	st.image('aphid_1.jpeg', caption='Aphid')
 with col[1]:
@@ -74,27 +75,25 @@ with col[3]:
         st.image('stem_fly_30.jpeg', caption='Stem Fly')
 with col[4]:
         st.image('black_rust_1.jpeg', caption='Black Rust')
-        
-col1 = st.columns(5)
-with col1[0]:
+with col[5]:
         st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
-with col1[1]:
+with col[6]:
         st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
-with col1[2]:
+	
+col1 = st.columns(7)
+with col1[0]:
         st.image('septoria_5.jpeg.png', caption='Septoria')
-with col1[3]:
-        st.image('tan_spot_24.jpeg', caption='Tan Spot')
-with col1[4]:
+with col1[1]:
+        st.image('tan_spot_24.jpeg', caption='Tan Spot'
+with col1[2]:
         st.image('blast_1.jpeg', caption='Blast')
-        
-col2 = st.columns(4)
-with col2[0]:
+with col1[3]:
         st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-with col2[1]:
+with col1[4]:
         st.image('mildew_82.png', caption='Mildew')
-with col2[2]:
+with col1[5]:
         st.image('smut_test_0.png', caption='Smut')
-with col2[3]:
+with col1[6]:
         st.image('yellow_rust_256.png', caption='Yellow Rust')
         
 st.subheader('Steps to use the app')
