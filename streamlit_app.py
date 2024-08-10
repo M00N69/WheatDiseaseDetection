@@ -65,55 +65,133 @@ with streamlit_analytics.track():
 	elif selected_language == "Hindi":
 	    # About the app section
 	    with st.container():
-	        st.header('About the App')
-	        st.write('''
-	            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
-	            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
-	            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
-	        ''')
-	
+	        st.header('वैश्विक खाद्य सुरक्षा की रक्षा करना')
+	        st.write('''गेहूं मानव उपभोग के लिए सबसे महत्वपूर्ण फसलों में से एक है, जो दुनिया भर में अरबों लोगों का पेट भरता है। 
+  		हालाँकि, यह आवश्यक फसल रोगजनकों और कीटों के कारण होने वाली विभिन्न प्रकार की बीमारियों से लगातार खतरे में है। 
+    		हर साल, इन खतरों के परिणामस्वरूप महत्वपूर्ण नुकसान होता है - जो वैश्विक गेहूं उत्पादन के 21.5% के बराबर है। 
+      		इसका मतलब है कि आश्चर्यजनक रूप से 209 मिलियन टन गेहूं, जिसकी अनुमानित कीमत 31 बिलियन डॉलर है, हर साल नष्ट हो जाता है।''')
+		st.subheader('चुनौती को समझना')
+		st.write('''गेहूं की बीमारी की चुनौती बहुआयामी है। गेहूं की फसलें कवक, बैक्टीरिया, वायरस और कीटों सहित विभिन्न रोगजनकों के प्रति संवेदनशील होती हैं। 
+  		यदि शीघ्र पता नहीं लगाया गया और प्रबंधित नहीं किया गया तो प्रत्येक पूरे क्षेत्र को तबाह करने में सक्षम है। 
+    		एफिड्स और तना मक्खियों जैसे कीटों के साथ-साथ जंग, फफूंदी और झुलसा जैसी बीमारियाँ उपज की गुणवत्ता और मात्रा को काफी कम कर सकती हैं। 
+      		आर्थिक प्रभाव गहरा है, न केवल किसानों को बल्कि वैश्विक खाद्य आपूर्ति श्रृंखला को भी प्रभावित कर रहा है। 
+		जिससे कमजोर क्षेत्रों में कीमतें बढ़ीं और खाद्य असुरक्षा पैदा हुई।''')
+		    
 	elif selected_language == "Punjabi":
 	    # About the app section
 	    with st.container():
-	        st.header('About the App')
+	        st.header('ਗਲੋਬਲ ਭੋਜਨ ਸੁਰੱਖਿਆ ਦੀ ਸੁਰੱਖਿਆ')
 	        st.write('''
-	            This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
-	            recommendations for treatment. Wheat suffers from numerous diseases caused by various pathogens and pests, 
-	            resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
-	        ''')
-	    
+	        ਕਣਕ ਮਨੁੱਖੀ ਖਪਤ ਲਈ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਫਸਲਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ, ਜੋ ਦੁਨੀਆ ਭਰ ਦੇ ਅਰਬਾਂ ਲੋਕਾਂ ਨੂੰ ਭੋਜਨ ਦਿੰਦੀ ਹੈ। 
+  		ਹਾਲਾਂਕਿ, ਇਹ ਜ਼ਰੂਰੀ ਫਸਲ ਰੋਗਾਣੂਆਂ ਅਤੇ ਕੀੜਿਆਂ ਕਾਰਨ ਹੋਣ ਵਾਲੀਆਂ ਬਿਮਾਰੀਆਂ ਦੀ ਇੱਕ ਵਿਸ਼ਾਲ ਸ਼੍ਰੇਣੀ ਤੋਂ ਲਗਾਤਾਰ ਖਤਰੇ ਵਿੱਚ ਹੈ। 
+    		ਹਰ ਸਾਲ, ਇਹਨਾਂ ਧਮਕੀਆਂ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਮਹੱਤਵਪੂਰਨ ਨੁਕਸਾਨ ਹੁੰਦਾ ਹੈ - ਵਿਸ਼ਵਵਿਆਪੀ ਕਣਕ ਉਤਪਾਦਨ ਦੇ 21.5% ਦੇ ਬਰਾਬਰ। 
+      		ਇਹ ਇੱਕ ਹੈਰਾਨੀਜਨਕ 209 ਮਿਲੀਅਨ ਟਨ ਕਣਕ ਦਾ ਅਨੁਵਾਦ ਕਰਦਾ ਹੈ, ਜਿਸਦੀ ਕੀਮਤ $31 ਬਿਲੀਅਨ ਹੈ, ਸਾਲਾਨਾ ਗੁਆਚ ਜਾਂਦੀ ਹੈ।''')
+		st.subheader('ਚੁਣੌਤੀ ਨੂੰ ਸਮਝਣਾ')
+		st.write('''ਕਣਕ ਦੀ ਬਿਮਾਰੀ ਦੀ ਚੁਣੌਤੀ ਬਹੁਪੱਖੀ ਹੈ। ਕਣਕ ਦੀ ਫ਼ਸਲ ਉੱਲੀ, ਬੈਕਟੀਰੀਆ, ਵਾਇਰਸ ਅਤੇ ਕੀੜਿਆਂ ਸਮੇਤ ਵੱਖ-ਵੱਖ ਜਰਾਸੀਮਾਂ ਲਈ ਸੰਵੇਦਨਸ਼ੀਲ ਹੁੰਦੀ ਹੈ, 
+  		ਹਰ ਇੱਕ ਪੂਰੇ ਖੇਤਰ ਨੂੰ ਤਬਾਹ ਕਰਨ ਦੇ ਸਮਰੱਥ ਹੈ ਜੇਕਰ ਜਲਦੀ ਖੋਜਿਆ ਅਤੇ ਪ੍ਰਬੰਧਿਤ ਨਾ ਕੀਤਾ ਜਾਵੇ। 
+    		ਕੀੜਿਆਂ ਜਿਵੇਂ ਕਿ ਐਫੀਡਜ਼ ਅਤੇ ਸਟੈਮ ਫਲਾਈਜ਼ ਦੇ ਨਾਲ-ਨਾਲ ਜੰਗਾਲ, ਫ਼ਫ਼ੂੰਦੀ ਅਤੇ ਝੁਲਸ ਵਰਗੀਆਂ ਬਿਮਾਰੀਆਂ, ਉਪਜ ਦੀ ਗੁਣਵੱਤਾ ਅਤੇ ਮਾਤਰਾ ਨੂੰ ਬਹੁਤ ਜ਼ਿਆਦਾ ਘਟਾ ਸਕਦੀਆਂ ਹਨ। 
+      		ਆਰਥਿਕ ਪ੍ਰਭਾਵ ਡੂੰਘਾ ਹੈ, ਜੋ ਨਾ ਸਿਰਫ਼ ਕਿਸਾਨਾਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦਾ ਹੈ, ਸਗੋਂ ਵਿਸ਼ਵ ਖੁਰਾਕ ਸਪਲਾਈ ਲੜੀ ਨੂੰ ਵੀ ਪ੍ਰਭਾਵਿਤ ਕਰਦਾ ਹੈ, 
+		ਜਿਸ ਨਾਲ ਕਮਜ਼ੋਰ ਖੇਤਰਾਂ ਵਿੱਚ ਵਧੀਆਂ ਕੀਮਤਾਂ ਅਤੇ ਭੋਜਨ ਦੀ ਅਸੁਰੱਖਿਆ ਹੁੰਦੀ ਹੈ।''')
+
 	# Display disease images with captions
-	col = st.columns(7)
-	with col[0]:
-		st.image('aphid_1.jpeg', caption='Aphid')
-	with col[1]:
-	        st.image('brown_rust_3.jpeg', caption='Brown Rust')
-	with col[2]:
-		st.image('mite_26.jpeg', caption='Mite')
-	with col[3]:
-	        st.image('stem_fly_30.jpeg', caption='Stem Fly')
-	with col[4]:
-	        st.image('black_rust_1.jpeg', caption='Black Rust')
-	with col[5]:
-	        st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
-	with col[6]:
-	        st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
+	if selected_language == "English":
+		col = st.columns(7)
+		with col[0]:
+			st.image('aphid_1.jpeg', caption='Aphid')
+		with col[1]:
+		        st.image('brown_rust_3.jpeg', caption='Brown Rust')
+		with col[2]:
+			st.image('mite_26.jpeg', caption='Mite')
+		with col[3]:
+		        st.image('stem_fly_30.jpeg', caption='Stem Fly')
+		with col[4]:
+		        st.image('black_rust_1.jpeg', caption='Black Rust')
+		with col[5]:
+		        st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
+		with col[6]:
+		        st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
+			
+		col1 = st.columns(7)
+		with col1[0]:
+		        st.image('septoria_5.jpeg.png', caption='Septoria')
+		with col1[1]:
+		        st.image('tan_spot_24.jpeg', caption='Tan Spot')
+		with col1[2]:
+		        st.image('blast_1.jpeg', caption='Blast')
+		with col1[3]:
+		        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
+		with col1[4]:
+		        st.image('mildew_82.png', caption='Mildew')
+		with col1[5]:
+		        st.image('smut_test_0.png', caption='Smut')
+		with col1[6]:
+		        st.image('yellow_rust_256.png', caption='Yellow Rust')
 		
-	col1 = st.columns(7)
-	with col1[0]:
-	        st.image('septoria_5.jpeg.png', caption='Septoria')
-	with col1[1]:
-	        st.image('tan_spot_24.jpeg', caption='Tan Spot')
-	with col1[2]:
-	        st.image('blast_1.jpeg', caption='Blast')
-	with col1[3]:
-	        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-	with col1[4]:
-	        st.image('mildew_82.png', caption='Mildew')
-	with col1[5]:
-	        st.image('smut_test_0.png', caption='Smut')
-	with col1[6]:
-	        st.image('yellow_rust_256.png', caption='Yellow Rust')
+	elif selected_language == "Hindi":
+		col = st.columns(7)
+		with col[0]:
+			st.image('aphid_1.jpeg', caption='एफिड')
+		with col[1]:
+		        st.image('brown_rust_3.jpeg', caption='भूरा जंग')
+		with col[2]:
+			st.image('mite_26.jpeg', caption='घुन')
+		with col[3]:
+		        st.image('stem_fly_30.jpeg', caption='तना मक्खी')
+		with col[4]:
+		        st.image('black_rust_1.jpeg', caption='काला जंग')
+		with col[5]:
+		        st.image('common_root_rot_55.jpeg', caption='सामान्य जड़ सड़न')
+		with col[6]:
+		        st.image('leaf_blight_38.jpeg', caption='पत्ती का झुलसा रोग')
+			
+		col1 = st.columns(7)
+		with col1[0]:
+		        st.image('septoria_5.jpeg.png', caption='सेप्टोरिया')
+		with col1[1]:
+		        st.image('tan_spot_24.jpeg', caption='टैन स्पॉट')
+		with col1[2]:
+		        st.image('blast_1.jpeg', caption='ब्लास्ट')
+		with col1[3]:
+		        st.image('fusarium_head_blight_test_0.png', caption='फ्यूजेरियम हेड ब्लाइट')
+		with col1[4]:
+		        st.image('mildew_82.png', caption='फफूंदी')
+		with col1[5]:
+		        st.image('smut_test_0.png', caption='मैल')
+		with col1[6]:
+		        st.image('yellow_rust_256.png', caption='पीला रतुआ')
+
+	elif selected_language == "Punjabi":
+		col = st.columns(7)
+		with col[0]:
+			st.image('aphid_1.jpeg', caption='ਐਫੀਡ')
+		with col[1]:
+		        st.image('brown_rust_3.jpeg', caption='ਭੂਰਾ ਜੰਗਾਲ')
+		with col[2]:
+			st.image('mite_26.jpeg', caption='ਮਾਈਟ')
+		with col[3]:
+		        st.image('stem_fly_30.jpeg', caption='ਸਟੈਮ ਫਲਾਈ')
+		with col[4]:
+		        st.image('black_rust_1.jpeg', caption='ਕਾਲਾ ਜੰਗਾਲ')
+		with col[5]:
+		        st.image('common_root_rot_55.jpeg', caption='ਆਮ ਜੜ੍ਹ ਸੜਨ')
+		with col[6]:
+		        st.image('leaf_blight_38.jpeg', caption='ਪੱਤਾ ਝੁਲਸ')
+			
+		col1 = st.columns(7)
+		with col1[0]:
+		        st.image('septoria_5.jpeg.png', caption='ਸੇਪਟੋਰੀਆ')
+		with col1[1]:
+		        st.image('tan_spot_24.jpeg', caption='ਟੈਨ ਸਪਾਟ')
+		with col1[2]:
+		        st.image('blast_1.jpeg', caption='ਬਲਾਸਟ')
+		with col1[3]:
+		        st.image('fusarium_head_blight_test_0.png', caption='ਫੁਸਾਰਿਅਮ ਸਿਰ ਝੁਲਸ')
+		with col1[4]:
+		        st.image('mildew_82.png', caption='ਫ਼ਫ਼ੂੰਦੀ')
+		with col1[5]:
+		        st.image('smut_test_0.png', caption='Smut')
+		with col1[6]:
+		        st.image('yellow_rust_256.png', caption='ਪੀਲੀ ਜੰਗਾਲ')
 
 	st.subheader('The Role of Technology in Early Detection')
 	st.write('''In response to these challenges, technology offers a powerful solution. 
