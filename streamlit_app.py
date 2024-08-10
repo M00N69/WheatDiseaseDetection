@@ -25,6 +25,12 @@ with streamlit_analytics.track():
 	        # st.experimental_set_query_params(**{f"lang": lang})
 	        return lang
 	    return "English"
+
+	# Load the model
+	@st.cache_resource
+	def models():
+	    mod = YOLO('best.pt')
+	    return mod
 	
 	languages = ["English", "Punjabi", "Hindi"]
 	sel_lang = st.radio(
@@ -215,12 +221,6 @@ with streamlit_analytics.track():
 	- Take a clear image
 	- Upload the image
 	- Analyze the image and the name and confidence level of the disease along with the causes, preventions, and remedies will be displayed in the result panel below''')
-	
-	# Load the model
-	@st.cache_resource
-	def models():
-	    mod = YOLO('best.pt')
-	    return mod
 	
 	# Image upload and analysis section
 	with st.container():
