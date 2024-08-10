@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image
 import streamlit_analytics
 
+st.set_page_config(layout="wide")
 
 with streamlit_analytics.track():
 	st.markdown('''
@@ -17,8 +18,6 @@ with streamlit_analytics.track():
     	}
     	</style>
     	''',unsafe_allow_html=True)
-
-	st.set_page_config(layout="wide")
 	
 	def set_language():
 	    if f"selected_language" in st.session_state:
