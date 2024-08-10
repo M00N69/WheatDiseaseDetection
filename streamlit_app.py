@@ -50,13 +50,13 @@ with streamlit_analytics.track():
 	if selected_language == "English":
 	    # About the app section
 	    with st.container():
-		    st.header('Wheat Disease Detection: Safeguarding Global Food Security')
-		    st.write('''Wheat is one of the most vital crops for human consumption, feeding billions of people worldwide. 
+		st.header('Wheat Disease Detection: Safeguarding Global Food Security')
+		st.write('''Wheat is one of the most vital crops for human consumption, feeding billions of people worldwide. 
   		However, this essential crop is under constant threat from a wide range of diseases caused by pathogens and pests. 
     		Every year, these threats result in significant losses—equivalent to 21.5% of global wheat production. 
       		This translates to an astonishing 209 million tonnes of wheat, valued at an estimated $31 billion, lost annually.''')
-		    st.subheader('Understanding the Challenge')
-		    st.write('''The challenge of wheat disease is multifaceted. Wheat crops are susceptible to various pathogens, including fungi, bacteria, viruses, and pests, 
+		st.subheader('Understanding the Challenge')
+		st.write('''The challenge of wheat disease is multifaceted. Wheat crops are susceptible to various pathogens, including fungi, bacteria, viruses, and pests, 
   		each capable of devastating entire fields if not detected and managed early. 
     		Diseases like rusts, mildew, and blight, alongside pests like aphids and stem flies, can drastically reduce yield quality and quantity. 
       		The economic impact is profound, affecting not only farmers but also the global food supply chain, 
