@@ -50,7 +50,7 @@ with streamlit_analytics.track():
 	if selected_language == "English":
 	    # About the app section
 	    with st.container():
-		st.header('Wheat Disease Detection: Safeguarding Global Food Security')
+	        st.header('Wheat Disease Detection: Safeguarding Global Food Security')
 		st.write('''Wheat is one of the most vital crops for human consumption, feeding billions of people worldwide. 
   		However, this essential crop is under constant threat from a wide range of diseases caused by pathogens and pests. 
     		Every year, these threats result in significant losses—equivalent to 21.5% of global wheat production. 
