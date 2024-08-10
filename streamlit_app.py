@@ -189,7 +189,7 @@ with streamlit_analytics.track():
 		with col1[4]:
 		        st.image('mildew_82.png', caption='ਫ਼ਫ਼ੂੰਦੀ')
 		with col1[5]:
-		        st.image('smut_test_0.png', caption='Smut')
+		        st.image('smut_test_0.png', caption='ਸ੍ਮਟ')
 		with col1[6]:
 		        st.image('yellow_rust_256.png', caption='ਪੀਲੀ ਜੰਗਾਲ')
 
