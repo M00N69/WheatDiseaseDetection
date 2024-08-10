@@ -120,6 +120,7 @@ with streamlit_analytics.track():
   	The Wheat Detection web app harnesses the power of artificial intelligence and machine learning to identify diseases in wheat crops at an early stage. 
     	By analyzing images of wheat fields, the app can accurately detect signs of disease, enabling farmers to take prompt action. 
       	Early detection is critical in preventing the spread of disease, protecting crop yields, and ensuring a stable food supply.''')
+	st.image('farmer.webp')
 	st.subheader('How It Works')
 	st.markdown('''
 	1. Image Capture: Farmers capture images of their wheat fields using a smartphone or drone.
