@@ -12,7 +12,7 @@ with streamlit_analytics.track():
     	{
         display: none;
     	}
-    	.st-emotion-cache-p5msec.eqpbllx1
+    	.st-emotion-cache-1r7h7mk.eqpbllx1
     	{
         display: none;
     	}
@@ -50,14 +50,18 @@ with streamlit_analytics.track():
 	if selected_language == "English":
 	    # About the app section
 	    with st.container():
-	        st.header('About the App')
-	        st.write('''
-		Wheat is a majorWheat suffers from numerous diseases caused by various pathogens and pests, 
-	        resulting in annual losses equivalent to 21.5% of global wheat production, totaling 209 million tonnes valued at $31 billion.
-	        This Wheat Disease Detection App aims to identify diseases affecting wheat crops and provides 
-	        recommendations for treatment.
-	        ''')
-	
+	        st.header('Wheat Disease Detection: Safeguarding Global Food Security')
+	        st.write('''Wheat is one of the most vital crops for human consumption, feeding billions of people worldwide. 
+  		However, this essential crop is under constant threat from a wide range of diseases caused by pathogens and pests. 
+    		Every year, these threats result in significant losses—equivalent to 21.5% of global wheat production. 
+      		This translates to an astonishing 209 million tonnes of wheat, valued at an estimated $31 billion, lost annually.''')
+		st.subheader('Understanding the Challenge')
+		st.write('''The challenge of wheat disease is multifaceted. Wheat crops are susceptible to various pathogens, including fungi, bacteria, viruses, and pests, 
+  		each capable of devastating entire fields if not detected and managed early. 
+    		Diseases like rusts, mildew, and blight, alongside pests like aphids and stem flies, can drastically reduce yield quality and quantity. 
+      		The economic impact is profound, affecting not only farmers but also the global food supply chain, 
+		leading to increased prices and food insecurity in vulnerable regions.''')
+		
 	elif selected_language == "Hindi":
 	    # About the app section
 	    with st.container():
@@ -110,7 +114,23 @@ with streamlit_analytics.track():
 	        st.image('smut_test_0.png', caption='Smut')
 	with col1[6]:
 	        st.image('yellow_rust_256.png', caption='Yellow Rust')
-	        
+
+	st.subheader('The Role of Technology in Early Detection')
+	st.write('''In response to these challenges, technology offers a powerful solution. 
+  	The Wheat Detection web app harnesses the power of artificial intelligence and machine learning to identify diseases in wheat crops at an early stage. 
+    	By analyzing images of wheat fields, the app can accurately detect signs of disease, enabling farmers to take prompt action. 
+      	Early detection is critical in preventing the spread of disease, protecting crop yields, and ensuring a stable food supply.''')
+	st.subheader('How It Works')
+	st.markdown('''
+	1. Image Capture: Farmers capture images of their wheat fields using a smartphone or drone.
+	2. Analysis: The app processes these images using advanced machine learning algorithms trained to recognize specific disease patterns.
+	3. Diagnosis: The app provides an instant diagnosis, identifying the type of disease and offering suggestions for treatment.
+	4. Actionable Insights: Farmers receive recommendations on how to manage the detected disease, including optimal pesticide use and agronomic practices to mitigate the impact.''')
+	st.subheader('The Impact')
+	st.write('By integrating this technology into their farming practices, farmers can significantly reduce the losses caused by wheat diseases. The Wheat Detection app not only helps in preserving crop yields but also contributes to global efforts in achieving food security and reducing hunger. The economic benefits are also substantial, allowing farmers to maximize their profits and ensuring that the wheat market remains stable.')
+	st.subheader('Join the Movement')
+	st.write('As we move towards a future where technology plays an integral role in agriculture, the Wheat Detection app is at the forefront of this revolution. Join us in protecting one of the world’s most important crops and securing the future of global food security.')
+	
 	st.subheader('Steps to use the app')
 	st.markdown('''
 	- Take a clear image
