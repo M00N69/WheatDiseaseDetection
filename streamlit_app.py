@@ -32,7 +32,7 @@ with streamlit_analytics.track():
 	    mod = YOLO('best.pt')
 	    return mod
 	
-	languages = ["English", "Punjabi", "Hindi"]
+	languages = ["English", "ਪੰਜਾਬੀ", "हिंदी"]
 	sel_lang = st.radio(
 		"Language",
 		options=languages,
@@ -68,7 +68,7 @@ with streamlit_analytics.track():
       		The economic impact is profound, affecting not only farmers but also the global food supply chain, 
 		leading to increased prices and food insecurity in vulnerable regions.''')
 		
-	elif selected_language == "Hindi":
+	elif selected_language == "हिंदी":
 	    # About the app section
 	    with st.container():
 	        st.header('वैश्विक खाद्य सुरक्षा की रक्षा करना')
@@ -83,7 +83,7 @@ with streamlit_analytics.track():
       		आर्थिक प्रभाव गहरा है, न केवल किसानों को बल्कि वैश्विक खाद्य आपूर्ति श्रृंखला को भी प्रभावित कर रहा है। 
 		जिससे कमजोर क्षेत्रों में कीमतें बढ़ीं और खाद्य असुरक्षा पैदा हुई।''')
 		    
-	elif selected_language == "Punjabi":
+	elif selected_language == "ਪੰਜਾਬੀ":
 	    # About the app section
 	    with st.container():
 	        st.header('ਗਲੋਬਲ ਭੋਜਨ ਸੁਰੱਖਿਆ ਦੀ ਸੁਰੱਖਿਆ')
@@ -133,7 +133,7 @@ with streamlit_analytics.track():
 		with col1[6]:
 		        st.image('yellow_rust_256.png', caption='Yellow Rust')
 		
-	elif selected_language == "Hindi":
+	elif selected_language == "हिंदी":
 		col = st.columns(7)
 		with col[0]:
 			st.image('aphid_1.jpeg', caption='एफिड')
@@ -166,7 +166,7 @@ with streamlit_analytics.track():
 		with col1[6]:
 		        st.image('yellow_rust_256.png', caption='पीला रतुआ')
 
-	elif selected_language == "Punjabi":
+	elif selected_language == "ਪੰਜਾਬੀ":
 		col = st.columns(7)
 		with col[0]:
 			st.image('aphid_1.jpeg', caption='ਐਫੀਡ')
@@ -409,7 +409,7 @@ with streamlit_analytics.track():
 		            \n- Apply fungicides when symptoms appear.
 		            \n- Remove and destroy infected plant debris.''')
 
-	if selected_language == "Hindi":
+	if selected_language == "हिंदी":
 		st.subheader('प्रारंभिक जांच में प्रौद्योगिकी की भूमिका')
 		st.write('''इन चुनौतियों के जवाब में, प्रौद्योगिकी एक शक्तिशाली समाधान प्रदान करती है। 
 	  	व्हीट डिटेक्शन वेब ऐप प्रारंभिक चरण में गेहूं की फसलों में बीमारियों की पहचान करने के लिए कृत्रिम बुद्धिमत्ता और मशीन लर्निंग की शक्ति का उपयोग करता है। 
@@ -620,213 +620,213 @@ with streamlit_analytics.track():
 		            \n- लक्षण दिखाई देने पर फफूंदनाशक लगाएं।
 		            \n- संक्रमित पौधे के मलबे को हटा दें और नष्ट कर दें।''')
 				
-	if selected_language == "Punjabi":
-		st.subheader('The Role of Technology in Early Detection')
-		st.write('''In response to these challenges, technology offers a powerful solution. 
-	  	The Wheat Detection web app harnesses the power of artificial intelligence and machine learning to identify diseases in wheat crops at an early stage. 
-	    	By analyzing images of wheat fields, the app can accurately detect signs of disease, enabling farmers to take prompt action. 
-	      	Early detection is critical in preventing the spread of disease, protecting crop yields, and ensuring a stable food supply.''')
+	if selected_language == "ਪੰਜਾਬੀ":
+		st.subheader('ਸ਼ੁਰੂਆਤੀ ਖੋਜ ਵਿੱਚ ਤਕਨਾਲੋਜੀ ਦੀ ਭੂਮਿਕਾ')
+		st.write('''ਇਹਨਾਂ ਚੁਣੌਤੀਆਂ ਦੇ ਜਵਾਬ ਵਿੱਚ, ਤਕਨਾਲੋਜੀ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਹੱਲ ਪੇਸ਼ ਕਰਦੀ ਹੈ। 
+	  	Wheat Detection ਵੈੱਬ ਐਪ ਸ਼ੁਰੂਆਤੀ ਪੜਾਅ 'ਤੇ ਕਣਕ ਦੀਆਂ ਫਸਲਾਂ ਵਿੱਚ ਬਿਮਾਰੀਆਂ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਨਕਲੀ ਬੁੱਧੀ ਅਤੇ ਮਸ਼ੀਨ ਸਿਖਲਾਈ ਦੀ ਸ਼ਕਤੀ ਨੂੰ ਵਰਤਦਾ ਹੈ। 
+	    	ਕਣਕ ਦੇ ਖੇਤਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ, ਐਪ ਬਿਮਾਰੀ ਦੇ ਲੱਛਣਾਂ ਦਾ ਸਹੀ ਪਤਾ ਲਗਾ ਸਕਦਾ ਹੈ, ਜਿਸ ਨਾਲ ਕਿਸਾਨਾਂ ਨੂੰ ਤੁਰੰਤ ਕਾਰਵਾਈ ਕਰਨ ਦੇ ਯੋਗ ਬਣਾਇਆ ਜਾ ਸਕਦਾ ਹੈ। 
+	      	ਬਿਮਾਰੀ ਦੇ ਫੈਲਣ ਨੂੰ ਰੋਕਣ, ਫਸਲਾਂ ਦੀ ਉਪਜ ਦੀ ਰੱਖਿਆ ਕਰਨ, ਅਤੇ ਇੱਕ ਸਥਿਰ ਭੋਜਨ ਸਪਲਾਈ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਸ਼ੁਰੂਆਤੀ ਖੋਜ ਮਹੱਤਵਪੂਰਨ ਹੈ।''')
 		st.image('farmer.webp')
-		st.subheader('How It Works')
+		st.subheader('ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ')
 		st.markdown('''
-		1. Image Capture: Farmers capture images of their wheat fields using a smartphone or drone.
-		2. Analysis: The app processes these images using advanced machine learning algorithms trained to recognize specific disease patterns.
-		3. Diagnosis: The app provides an instant diagnosis, identifying the type of disease and offering suggestions for treatment.
-		4. Actionable Insights: Farmers receive recommendations on how to manage the detected disease, including optimal pesticide use and agronomic practices to mitigate the impact.''')
-		st.subheader('The Impact')
-		st.write('By integrating this technology into their farming practices, farmers can significantly reduce the losses caused by wheat diseases. The Wheat Detection app not only helps in preserving crop yields but also contributes to global efforts in achieving food security and reducing hunger. The economic benefits are also substantial, allowing farmers to maximize their profits and ensuring that the wheat market remains stable.')
-		st.subheader('Join the Movement')
-		st.write('As we move towards a future where technology plays an integral role in agriculture, the Wheat Detection app is at the forefront of this revolution. Join us in protecting one of the world’s most important crops and securing the future of global food security.')
+		1. ਚਿੱਤਰ ਕੈਪਚਰ: ਕਿਸਾਨ ਸਮਾਰਟਫੋਨ ਜਾਂ ਡਰੋਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਪਣੇ ਕਣਕ ਦੇ ਖੇਤਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਕੈਪਚਰ ਕਰਦੇ ਹਨ।
+		2. ਵਿਸ਼ਲੇਸ਼ਣ: ਐਪ ਖਾਸ ਰੋਗਾਂ ਦੇ ਪੈਟਰਨਾਂ ਨੂੰ ਪਛਾਣਨ ਲਈ ਸਿਖਲਾਈ ਪ੍ਰਾਪਤ ਤਕਨੀਕੀ ਮਸ਼ੀਨ ਸਿਖਲਾਈ ਐਲਗੋਰਿਦਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇਹਨਾਂ ਚਿੱਤਰਾਂ 'ਤੇ ਪ੍ਰਕਿਰਿਆ ਕਰਦੀ ਹੈ।
+		3. ਨਿਦਾਨ: ਐਪ ਇੱਕ ਤਤਕਾਲ ਨਿਦਾਨ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ, ਬਿਮਾਰੀ ਦੀ ਕਿਸਮ ਦੀ ਪਛਾਣ ਕਰਦਾ ਹੈ ਅਤੇ ਇਲਾਜ ਲਈ ਸੁਝਾਅ ਪੇਸ਼ ਕਰਦਾ ਹੈ।
+		4. ਕਾਰਵਾਈਯੋਗ ਸੂਝ: ਕਿਸਾਨਾਂ ਨੂੰ ਇਸ ਬਾਰੇ ਸਿਫ਼ਾਰਸ਼ਾਂ ਮਿਲਦੀਆਂ ਹਨ ਕਿ ਖੋਜੀ ਗਈ ਬਿਮਾਰੀ ਦਾ ਪ੍ਰਬੰਧਨ ਕਿਵੇਂ ਕਰਨਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਪ੍ਰਭਾਵ ਨੂੰ ਘਟਾਉਣ ਲਈ ਅਨੁਕੂਲ ਕੀਟਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਅਤੇ ਖੇਤੀ ਵਿਗਿਆਨਿਕ ਅਭਿਆਸਾਂ ਸ਼ਾਮਲ ਹਨ।''')
+		st.subheader('ਪ੍ਰਭਾਵ')
+		st.write('ਇਸ ਤਕਨੀਕ ਨੂੰ ਆਪਣੇ ਖੇਤੀ ਅਭਿਆਸਾਂ ਵਿੱਚ ਜੋੜ ਕੇ, ਕਿਸਾਨ ਕਣਕ ਦੀਆਂ ਬਿਮਾਰੀਆਂ ਕਾਰਨ ਹੋਣ ਵਾਲੇ ਨੁਕਸਾਨ ਨੂੰ ਕਾਫ਼ੀ ਹੱਦ ਤੱਕ ਘਟਾ ਸਕਦੇ ਹਨ। Wheat Detection ਐਪ ਨਾ ਸਿਰਫ਼ ਫ਼ਸਲਾਂ ਦੀ ਪੈਦਾਵਾਰ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ, ਸਗੋਂ ਭੋਜਨ ਸੁਰੱਖਿਆ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਅਤੇ ਭੁੱਖਮਰੀ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਵਿਸ਼ਵਵਿਆਪੀ ਯਤਨਾਂ ਵਿੱਚ ਵੀ ਯੋਗਦਾਨ ਪਾਉਂਦੀ ਹੈ। ਆਰਥਿਕ ਲਾਭ ਵੀ ਕਾਫੀ ਹੁੰਦੇ ਹਨ, ਜਿਸ ਨਾਲ ਕਿਸਾਨਾਂ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਭ ਪ੍ਰਾਪਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਕਣਕ ਦੀ ਮੰਡੀ ਸਥਿਰ ਰਹਿੰਦੀ ਹੈ।')
+		st.subheader('ਅੰਦੋਲਨ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ')
+		st.write('ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਇੱਕ ਅਜਿਹੇ ਭਵਿੱਖ ਵੱਲ ਵਧਦੇ ਹਾਂ ਜਿੱਥੇ ਤਕਨਾਲੋਜੀ ਖੇਤੀਬਾੜੀ ਵਿੱਚ ਇੱਕ ਅਨਿੱਖੜਵਾਂ ਭੂਮਿਕਾ ਨਿਭਾਉਂਦੀ ਹੈ, ਕਣਕ ਖੋਜ ਐਪ ਇਸ ਕ੍ਰਾਂਤੀ ਵਿੱਚ ਸਭ ਤੋਂ ਅੱਗੇ ਹੈ। ਦੁਨੀਆ ਦੀਆਂ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਫਸਲਾਂ ਵਿੱਚੋਂ ਇੱਕ ਦੀ ਰੱਖਿਆ ਕਰਨ ਅਤੇ ਵਿਸ਼ਵ ਭੋਜਨ ਸੁਰੱਖਿਆ ਦੇ ਭਵਿੱਖ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਸਾਡੇ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ।')
 		
-		st.subheader('Steps to use the app')
+		st.subheader('ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਕਦਮ')
 		st.markdown('''
-		- Take a clear image
-		- Upload the image
-		- Analyze the image and the name and confidence level of the disease along with the causes, preventions, and remedies will be displayed in the result panel below''')
+		- ਇੱਕ ਸਪਸ਼ਟ ਚਿੱਤਰ ਲਓ
+		- ਚਿੱਤਰ ਅੱਪਲੋਡ ਕਰੋ
+		- ਚਿੱਤਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ ਅਤੇ ਬਿਮਾਰੀ ਦੇ ਨਾਮ ਅਤੇ ਵਿਸ਼ਵਾਸ ਪੱਧਰ ਦੇ ਨਾਲ ਕਾਰਨ, ਰੋਕਥਾਮ ਅਤੇ ਉਪਚਾਰ ਹੇਠਾਂ ਨਤੀਜੇ ਪੈਨਲ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤੇ ਜਾਣਗੇ।''')
 		
 		# Image upload and analysis section
 		with st.container():
-		    img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
-		    analyse = st.button('Analyze')
+		    img = st.file_uploader('ਆਪਣੀ ਤਸਵੀਰ ਅੱਪਲੋਡ ਕਰੋ', type=['jpg', 'png', 'jpeg'])
+		    analyse = st.button('ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ')
 		    
 		if analyse:
 		    if img is not None:
 		        img = Image.open(img)
-		        st.markdown('Image Visualization')
+		        st.markdown('ਚਿੱਤਰ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ')
 		        st.image(img)
-		        st.subheader('This wheat crop has been affected by:')
+		        st.subheader('ਕਣਕ ਦੀ ਇਹ ਫਸਲ ਇਨ੍ਹਾਂ ਕਾਰਨਾਂ ਕਰਕੇ ਪ੍ਰਭਾਵਿਤ ਹੋਈ ਹੈ:')
 		        model = models()
 		        res = model.predict(img)
 		        label = res[0].probs.top5
 		        conf = res[0].probs.top5conf
 		        conf = conf.tolist()
-		        st.write('Disease: ' + str(res[0].names[label[0]].title()))
-		        st.write('Confidence level: ' + str(conf[0]))
+		        st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
+		        st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
 		        
 		        if str(res[0].names[label[0]].title()) == 'Aphid':
-		            st.write('''Aphids are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead.''')
-		            st.markdown('''Causes:
-		            \n- Aphids infest wheat plants by sucking sap, leading to reduced yield.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant wheat varieties.
-		            \n- Use insecticidal soaps or neem oil.
-		            \n- Encourage natural predators like ladybugs.''')
-		            st.markdown('''Remedies:
-		            \n- Apply insecticides if infestations are severe.
-		            \n- Use cultural practices like crop rotation to disrupt aphid life cycles.''')
+		            st.write('''ਐਫੀਡਜ਼ ਰਸ ਚੂਸਣ ਵਾਲੇ, ਨਰਮ ਸਰੀਰ ਵਾਲੇ ਕੀੜਿਆਂ ਦਾ ਇੱਕ ਸਮੂਹ ਹੈ ਜੋ ਕਿ ਪਿੰਨਹੈੱਡ ਦੇ ਆਕਾਰ ਦੇ ਹੁੰਦੇ ਹਨ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਐਫੀਡਸ ਰਸ ਚੂਸ ਕੇ ਕਣਕ ਦੇ ਪੌਦਿਆਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ, ਜਿਸ ਨਾਲ ਝਾੜ ਘੱਟ ਜਾਂਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਣਕ ਦੀਆਂ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਕੀਟਨਾਸ਼ਕ ਸਾਬਣ ਜਾਂ ਨਿੰਮ ਦੇ ਤੇਲ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+		            \n- ਲੇਡੀਬੱਗ ਵਰਗੇ ਕੁਦਰਤੀ ਸ਼ਿਕਾਰੀਆਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਕੀਟਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ ਜੇਕਰ ਸੰਕਰਮਣ ਗੰਭੀਰ ਹੋਵੇ।
+		            \n- ਐਫਿਡ ਜੀਵਨ ਚੱਕਰ ਨੂੰ ਵਿਗਾੜਨ ਲਈ ਫਸਲੀ ਚੱਕਰ ਵਰਗੀਆਂ ਸੱਭਿਆਚਾਰਕ ਅਭਿਆਸਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Brown Rust':
-		            st.write('''Brown rust tends to develops in late summer and results in a significant loss of green leaf area and, hence, yield and specific weight.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Puccinia triticina.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant wheat varieties. 
-		            \n- Apply fungicides as a preventive measure.''')
-		            st.markdown('''Remedies:
-		            \n- Use fungicides when the disease is detected early.
-		            \n- Remove and destroy infected plant debris.''')
+		            st.write('''ਭੂਰੀ ਜੰਗਾਲ ਗਰਮੀਆਂ ਦੇ ਅਖੀਰ ਵਿੱਚ ਵਿਕਸਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਨਤੀਜੇ ਵਜੋਂ ਹਰੇ ਪੱਤਿਆਂ ਦੇ ਖੇਤਰ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਨੁਕਸਾਨ ਹੁੰਦਾ ਹੈ ਅਤੇ, ਇਸਲਈ, ਝਾੜ ਅਤੇ ਖਾਸ ਭਾਰ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- Puccinia triticina ਉੱਲੀ ਦੇ ਕਾਰਨ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਣਕ ਦੀਆਂ ਕਿਸਮਾਂ ਬੀਜੋ। 
+		            \n- ਰੋਕਥਾਮ ਉਪਾਅ ਵਜੋਂ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਬਿਮਾਰੀ ਦਾ ਛੇਤੀ ਪਤਾ ਲੱਗਣ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+		            \n- ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਦੇ ਮਲਬੇ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Mite':
-		            st.write('''Mites are tiny, reddish-brown to black, eight-legged arachnids that infest wheat crops, particularly in hot, dry conditions. 
-		            They spread via wind, machinery, and infected plant material.''')
-		            st.markdown('''Causes:
-		            \n- Mites infest wheat plants, sucking sap and transmitting viruses.''')
-		            st.markdown('''Preventions:
-		            \n- Use mite-resistant wheat varieties.
-		            \n- Apply miticides if necessary.
-		            \n- Proper irrigation can help reduce the risk of infestation.''')
-		            st.markdown('''Remedies:
-		            \n- Apply appropriate miticides.
-		            \n- Maintain proper field hygiene.''')
+		            st.write('''ਦੇਕਣ ਛੋਟੇ, ਲਾਲ-ਭੂਰੇ ਤੋਂ ਕਾਲੇ, ਅੱਠ ਪੈਰਾਂ ਵਾਲੇ ਅਰਚਨਿਡ ਹੁੰਦੇ ਹਨ ਜੋ ਕਣਕ ਦੀਆਂ ਫਸਲਾਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ, ਖਾਸ ਕਰਕੇ ਗਰਮ, ਸੁੱਕੀਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚ। 
+		            ਇਹ ਹਵਾ, ਮਸ਼ੀਨਰੀ ਅਤੇ ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਦੀ ਸਮੱਗਰੀ ਰਾਹੀਂ ਫੈਲਦੇ ਹਨ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਕੀੜੇ ਕਣਕ ਦੇ ਪੌਦਿਆਂ ਨੂੰ ਸੰਕਰਮਿਤ ਕਰਦੇ ਹਨ, ਰਸ ਚੂਸਦੇ ਹਨ ਅਤੇ ਵਾਇਰਸ ਫੈਲਾਉਂਦੇ ਹਨ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਕੀਟ-ਰੋਧਕ ਕਣਕ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+		            \n- ਜੇਕਰ ਲੋੜ ਹੋਵੇ ਤਾਂ ਮਾਈਟੀਸਾਈਡਸ ਲਾਗੂ ਕਰੋ।
+		            \n- ਸਹੀ ਸਿੰਚਾਈ ਸੰਕਰਮਣ ਦੇ ਜੋਖਮ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਉਚਿਤ ਮਾਈਟੀਸਾਈਡਸ ਲਾਗੂ ਕਰੋ।
+		            \n- ਖੇਤ ਦੀ ਸਹੀ ਸਫਾਈ ਬਣਾਈ ਰੱਖੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Stem Fly':
-		            st.write('''The wheat stem sawfly (Cephus cinctus) is a primitive, wasp-like insect from the family Cephidae in the order Hymenoptera (i.e. bees, wasps, and ants). 
-		            Its larvae are significant pests of spring and winter wheat, leading to reduced quality and yield of the crops.''')
-		            st.markdown('''Causes:
-		            \n- Stem flies lay eggs on wheat plants, and larvae burrow into stems.''')
-		            st.markdown('''Preventions:
-		            \n- Plant early to avoid peak stem fly activity.
-		            \n- Use insecticides as a preventive measure.''')
-		            st.markdown('''Remedies:
-		            \n- Apply insecticides at the larval stage.
-		            \n- Remove and destroy infested plants.''')
+		            st.write('''ਕਣਕ ਦੇ ਤਣੇ ਦੀ ਆਰਾ (Cephus cinctus) Hymenoptera (ਜਿਵੇਂ ਕਿ ਮਧੂ-ਮੱਖੀਆਂ, ਭਾਂਡੇ ਅਤੇ ਕੀੜੀਆਂ) ਦੇ ਕ੍ਰਮ ਵਿੱਚ ਸੇਫੀਡੇ ਪਰਿਵਾਰ ਵਿੱਚੋਂ ਇੱਕ ਆਦਿਮ, ਭਾਂਡੇ-ਵਰਗੇ ਕੀੜੇ ਹਨ। 
+		            ਇਸ ਦੇ ਲਾਰਵੇ ਬਸੰਤ ਅਤੇ ਸਰਦੀਆਂ ਦੀ ਕਣਕ ਦੇ ਮਹੱਤਵਪੂਰਨ ਕੀੜੇ ਹਨ, ਜਿਸ ਨਾਲ ਫਸਲਾਂ ਦੀ ਗੁਣਵੱਤਾ ਅਤੇ ਝਾੜ ਘਟਦਾ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਡੰਡੀ ਦੀਆਂ ਮੱਖੀਆਂ ਕਣਕ ਦੇ ਪੌਦਿਆਂ 'ਤੇ ਅੰਡੇ ਦਿੰਦੀਆਂ ਹਨ, ਅਤੇ ਲਾਰਵੇ ਤਣੀਆਂ ਵਿੱਚ ਛਾ ਜਾਂਦੇ ਹਨ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਪੀਕ ਸਟੈਮ ਫਲਾਈ ਗਤੀਵਿਧੀ ਤੋਂ ਬਚਣ ਲਈ ਜਲਦੀ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਉਪਾਅ ਵਜੋਂ ਕੀਟਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲਾਰਵੇ ਪੜਾਅ 'ਤੇ ਕੀਟਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Black Rust':
-		            st.write('''Black Rust affects the stems and leaves of wheat plants, causing significant yield losses and economic damage. 
-		            It produces black or dark brown raised pustules containing rust-colored spores. If not controlled, it can quickly spread and devastate entire fields.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Puccinia graminis.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant wheat varieties.
-		            \n- Use fungicides preventively.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides when symptoms appear.
-		            \n- Destroy infected plant debris.''')
+		            st.write('''ਕਾਲੀ ਕੁੰਗੀ ਕਣਕ ਦੇ ਪੌਦਿਆਂ ਦੇ ਤਣੇ ਅਤੇ ਪੱਤਿਆਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀ ਹੈ, ਜਿਸ ਨਾਲ ਉਪਜ ਦਾ ਮਹੱਤਵਪੂਰਨ ਨੁਕਸਾਨ ਅਤੇ ਆਰਥਿਕ ਨੁਕਸਾਨ ਹੁੰਦਾ ਹੈ। 
+		            ਇਹ ਕਾਲੇ ਜਾਂ ਗੂੜ੍ਹੇ ਭੂਰੇ ਰੰਗ ਦੇ ਉੱਚੇ ਹੋਏ ਛਾਲੇ ਪੈਦਾ ਕਰਦਾ ਹੈ ਜਿਸ ਵਿੱਚ ਜੰਗਾਲ-ਰੰਗ ਦੇ ਬੀਜਾਣੂ ਹੁੰਦੇ ਹਨ। ਜੇਕਰ ਕੰਟਰੋਲ ਨਾ ਕੀਤਾ ਜਾਵੇ, ਤਾਂ ਇਹ ਤੇਜ਼ੀ ਨਾਲ ਫੈਲ ਸਕਦਾ ਹੈ ਅਤੇ ਪੂਰੇ ਖੇਤਾਂ ਨੂੰ ਤਬਾਹ ਕਰ ਸਕਦਾ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- Puccinia graminis ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਣਕ ਦੀਆਂ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਲਈ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣ ਦਿਖਾਈ ਦੇਣ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਦੇ ਮਲਬੇ ਨੂੰ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Common Root Rot':
-		            st.write('''Wheat root rots are caused by various fungi that invade the roots and crown tissue of wheat plants. 
-		            Infected plants have destroyed crown and root tissues, resulting in halted water and nutrient uptake.''')
-		            st.markdown('''Causes:
-		            \n- Caused by fungi such as Bipolaris sorokiniana.''')
-		            st.markdown('''Preventions:
-		            \n- Use disease-free seeds.
-		            \n- Implement crop rotation with non-host crops.''')
-		            st.markdown('''Remedies:
-		            \n- Apply appropriate fungicides.
-		            \n- Improve soil drainage.''')
+		            st.write('''ਕਣਕ ਦੀਆਂ ਜੜ੍ਹਾਂ ਦੀਆਂ ਸੜਨ ਵੱਖ-ਵੱਖ ਉੱਲੀ ਦੇ ਕਾਰਨ ਹੁੰਦੀਆਂ ਹਨ ਜੋ ਕਣਕ ਦੇ ਪੌਦਿਆਂ ਦੀਆਂ ਜੜ੍ਹਾਂ ਅਤੇ ਤਾਜ ਦੇ ਟਿਸ਼ੂ 'ਤੇ ਹਮਲਾ ਕਰਦੀਆਂ ਹਨ। 
+		            ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਨੇ ਤਾਜ ਅਤੇ ਜੜ੍ਹਾਂ ਦੇ ਟਿਸ਼ੂਆਂ ਨੂੰ ਨਸ਼ਟ ਕਰ ਦਿੱਤਾ ਹੈ, ਜਿਸਦੇ ਨਤੀਜੇ ਵਜੋਂ ਪਾਣੀ ਅਤੇ ਪੌਸ਼ਟਿਕ ਤੱਤਾਂ ਦੀ ਖਪਤ ਰੁਕ ਜਾਂਦੀ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਬਾਇਪੋਲਾਰਿਸ ਸੋਰੋਕਿਨਿਆਨਾ ਵਰਗੀ ਉੱਲੀ ਦੇ ਕਾਰਨ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਗ ਮੁਕਤ ਬੀਜਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+		            \n- ਗੈਰ-ਹੋਸਟ ਫਸਲਾਂ ਦੇ ਨਾਲ ਫਸਲੀ ਰੋਟੇਸ਼ਨ ਲਾਗੂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਢੁਕਵੀਆਂ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਮਿੱਟੀ ਦੀ ਨਿਕਾਸੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Leaf Blight':
-		            st.write('''Reddish brown oval spots appear on young seedlings with bright yellow margins. In severe cases, several spots coalesce to cause drying of leaves.''')
-		            st.markdown('''Causes:
-		            \n- Caused by fungi such as Bipolaris and Alternaria species.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Use fungicides preventively.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides at the onset of symptoms.
-		            \n- Remove and destroy infected plant residues.''')
+		            st.write('''ਚਮਕਦਾਰ ਪੀਲੇ ਹਾਸ਼ੀਏ ਵਾਲੇ ਛੋਟੇ ਬੂਟਿਆਂ 'ਤੇ ਲਾਲ ਭੂਰੇ ਅੰਡਾਕਾਰ ਧੱਬੇ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ। ਗੰਭੀਰ ਮਾਮਲਿਆਂ ਵਿੱਚ, ਕਈ ਚਟਾਕ ਪੱਤੇ ਦੇ ਸੁੱਕਣ ਦਾ ਕਾਰਨ ਬਣਦੇ ਹਨ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਬਾਇਪੋਲਾਰਿਸ ਅਤੇ ਅਲਟਰਨੇਰੀਆ ਸਪੀਸੀਜ਼ ਵਰਗੀਆਂ ਉੱਲੀ ਦੇ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਲਈ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣਾਂ ਦੀ ਸ਼ੁਰੂਆਤ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਦੀ ਰਹਿੰਦ-ਖੂੰਹਦ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Septoria':
-		            st.write('''Septoria tritici blotch survives on stubble between seasons. 
-		            In late autumn and early winter, rain or heavy dew triggers the release of wind-borne ascospores from perithecia in the stubble, allowing the disease to spread over large distances.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Septoria tritici.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Use fungicides preventively.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides when symptoms appear.
-		            \n- Remove and destroy infected leaves.''')
+		            st.write('''ਸੇਪਟੋਰੀਆ ਟ੍ਰਾਈਟੀਸੀ ਬਲੋਚ ਮੌਸਮਾਂ ਦੇ ਵਿਚਕਾਰ ਪਰਾਲੀ 'ਤੇ ਜਿਉਂਦਾ ਰਹਿੰਦਾ ਹੈ। 
+		            ਪਤਝੜ ਦੇ ਅਖੀਰ ਅਤੇ ਸਰਦੀਆਂ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ, ਮੀਂਹ ਜਾਂ ਭਾਰੀ ਤ੍ਰੇਲ ਪਰਾਲੀ ਵਿੱਚ ਪੈਰੀਥੀਸੀਆ ਤੋਂ ਹਵਾ ਦੁਆਰਾ ਪੈਦਾ ਹੋਣ ਵਾਲੇ ਐਸਕੋਸਪੋਰਸ ਨੂੰ ਛੱਡਣ ਦਾ ਕਾਰਨ ਬਣਦੀ ਹੈ, ਜਿਸ ਨਾਲ ਬਿਮਾਰੀ ਵੱਡੀ ਦੂਰੀ ਤੱਕ ਫੈਲ ਜਾਂਦੀ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਸੇਪਟੋਰੀਆ ਟ੍ਰਾਈਟੀਸੀ ਉੱਲੀ ਦੇ ਕਾਰਨ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਲਈ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣ ਦਿਖਾਈ ਦੇਣ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਸੰਕਰਮਿਤ ਪੱਤਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Tan Spot':
-		            st.write('''Tan spot, also known as yellow leaf spot, is an economically significant disease in wheat grown in the U.S. and Canada. 
-		            It initially appears as small, brown spots on the leaves of susceptible wheat varieties.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Pyrenophora tritici-repentis.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Use crop rotation and clean seed.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides at early signs of infection.
-		            \n- Remove and destroy infected plant debris.''')
+		            st.write('''ਟੈਨ ਸਪਾਟ, ਜਿਸ ਨੂੰ ਪੀਲੇ ਪੱਤੇ ਦੇ ਸਥਾਨ ਵਜੋਂ ਵੀ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ, ਅਮਰੀਕਾ ਅਤੇ ਕੈਨੇਡਾ ਵਿੱਚ ਉਗਾਈ ਜਾਣ ਵਾਲੀ ਕਣਕ ਵਿੱਚ ਆਰਥਿਕ ਤੌਰ 'ਤੇ ਮਹੱਤਵਪੂਰਨ ਬਿਮਾਰੀ ਹੈ। 
+		            ਇਹ ਸ਼ੁਰੂਆਤੀ ਤੌਰ 'ਤੇ ਸੰਵੇਦਨਸ਼ੀਲ ਕਣਕ ਦੀਆਂ ਕਿਸਮਾਂ ਦੇ ਪੱਤਿਆਂ 'ਤੇ ਛੋਟੇ, ਭੂਰੇ ਧੱਬਿਆਂ ਦੇ ਰੂਪ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਪਾਈਰੇਨੋਫੋਰਾ ਟ੍ਰਾਈਟੀਸੀ-ਰੇਪੇਂਟਿਸ ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਫਸਲ ਰੋਟੇਸ਼ਨ ਅਤੇ ਸਾਫ਼ ਬੀਜ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲਾਗ ਦੇ ਸ਼ੁਰੂਆਤੀ ਸੰਕੇਤਾਂ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਦੇ ਮਲਬੇ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Blast':
-		            st.write('''Wheat blast is a devastating disease that emerged in Brazil in the 1980s and has since spread to nearby and distant countries. 
-		            Climate change is expected to facilitate its spread, particularly in tropical regions.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Magnaporthe oryzae.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Avoid excessive nitrogen fertilization.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides at the first sign of symptoms.
-		            \n- Practice crop rotation.''')
+		            st.write('''ਕਣਕ ਦਾ ਧਮਾਕਾ ਇੱਕ ਵਿਨਾਸ਼ਕਾਰੀ ਬਿਮਾਰੀ ਹੈ ਜੋ 1980 ਦੇ ਦਹਾਕੇ ਵਿੱਚ ਬ੍ਰਾਜ਼ੀਲ ਵਿੱਚ ਸਾਹਮਣੇ ਆਈ ਸੀ ਅਤੇ ਉਦੋਂ ਤੋਂ ਨੇੜਲੇ ਅਤੇ ਦੂਰ ਦੇ ਦੇਸ਼ਾਂ ਵਿੱਚ ਫੈਲ ਗਈ ਹੈ। 
+		            ਜਲਵਾਯੂ ਪਰਿਵਰਤਨ ਤੋਂ ਉਮੀਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਕਿ ਉਹ ਇਸ ਦੇ ਫੈਲਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ, ਖਾਸ ਕਰਕੇ ਗਰਮ ਖੰਡੀ ਖੇਤਰਾਂ ਵਿੱਚ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਮੈਗਨਾਪੋਰਥ ਓਰੀਜ਼ਾ ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਖਾਦ ਪਾਉਣ ਤੋਂ ਬਚੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣਾਂ ਦੇ ਪਹਿਲੇ ਲੱਛਣਾਂ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਫਸਲ ਰੋਟੇਸ਼ਨ ਦਾ ਅਭਿਆਸ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Fusarium Head Blight':
-		            st.write('''Fusarium Head Blight is a severe fungal disease leading to contaminated grain with mycotoxins. 
-		            It results in reduced yield, poor grain quality, and significant economic losses for wheat producers.''')
-		            st.markdown('''Causes:
-		            \n- Caused by fungi of the Fusarium species.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Use crop rotation and clean seed.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides at the flowering stage.
-		            \n- Avoid planting in fields with high Fusarium pressure.''')
+		            st.write('''ਫੁਸੇਰੀਅਮ ਹੈੱਡ ਬਲਾਈਟ ਇੱਕ ਗੰਭੀਰ ਫੰਗਲ ਬਿਮਾਰੀ ਹੈ ਜੋ ਮਾਈਕੋਟੌਕਸਿਨ ਨਾਲ ਦੂਸ਼ਿਤ ਅਨਾਜ ਵੱਲ ਲੈ ਜਾਂਦੀ ਹੈ। 
+		            ਇਸ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਝਾੜ ਘਟਦਾ ਹੈ, ਅਨਾਜ ਦੀ ਮਾੜੀ ਗੁਣਵੱਤਾ, ਅਤੇ ਕਣਕ ਉਤਪਾਦਕਾਂ ਲਈ ਮਹੱਤਵਪੂਰਨ ਆਰਥਿਕ ਨੁਕਸਾਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਫੁਸੇਰੀਅਮ ਸਪੀਸੀਜ਼ ਦੇ ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਫਸਲ ਰੋਟੇਸ਼ਨ ਅਤੇ ਸਾਫ਼ ਬੀਜ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਫੁੱਲਾਂ ਦੇ ਪੜਾਅ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਉੱਚ ਫੁਸੇਰੀਅਮ ਦਬਾਅ ਵਾਲੇ ਖੇਤਾਂ ਵਿੱਚ ਬੀਜਣ ਤੋਂ ਬਚੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Mildew':
-		            st.write('''Powdery mildew in wheat begins as surface patches of white mycelium and can eventually cover the entire leaf, with mature infections showing black spore cases. 
-		            This wind-borne disease thrives in cool, wet weather and can cause yield losses of up to 40%.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Blumeria graminis.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Apply fungicides preventively.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides when symptoms appear.
-		            \n- Ensure good air circulation in the field.''')
+		            st.write('''ਕਣਕ ਵਿੱਚ ਪਾਊਡਰਰੀ ਫ਼ਫ਼ੂੰਦੀ ਚਿੱਟੇ ਮਾਈਸੀਲੀਅਮ ਦੇ ਸਤਹ ਧੱਬਿਆਂ ਦੇ ਰੂਪ ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ ਅਤੇ ਅੰਤ ਵਿੱਚ ਪੂਰੇ ਪੱਤੇ ਨੂੰ ਢੱਕ ਸਕਦੀ ਹੈ, ਪਰਿਪੱਕ ਲਾਗਾਂ ਨਾਲ ਕਾਲੇ ਬੀਜਾਣੂ ਦੇ ਕੇਸ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ। 
+		            ਇਹ ਹਵਾ ਦੁਆਰਾ ਫੈਲਣ ਵਾਲੀ ਬਿਮਾਰੀ ਠੰਡੇ, ਗਿੱਲੇ ਮੌਸਮ ਵਿੱਚ ਵਧਦੀ ਹੈ ਅਤੇ 40% ਤੱਕ ਝਾੜ ਦਾ ਨੁਕਸਾਨ ਕਰ ਸਕਦੀ ਹੈ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- ਬਲੂਮੇਰੀਆ ਗ੍ਰਾਮਿਨਿਸ ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਲਈ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣ ਦਿਖਾਈ ਦੇਣ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਖੇਤ ਵਿੱਚ ਚੰਗੀ ਹਵਾ ਦਾ ਸੰਚਾਰ ਯਕੀਨੀ ਬਣਾਓ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Smut':
-		            st.write('''Loose smut has a wide distribution and can occur anywhere wheat is produced. 
-		            Mild symptoms may be present prior to heading, including yellowish leaf streaks and stiff, dark green leaves.''')
-		            st.markdown('''Causes:
-		            \n- Caused by fungi like the Ustilago species.''')
-		            st.markdown('''Preventions:
-		            \n- Use smut-resistant varieties.
-		            \n- Treat seeds with fungicides before planting.''')
-		            st.markdown('''Remedies:
-		            \n- Destroy infected plants.
-		            \n- Use appropriate fungicides.''')
+		            st.write('''ਢਿੱਲੀ smut ਦੀ ਇੱਕ ਵਿਆਪਕ ਵੰਡ ਹੁੰਦੀ ਹੈ ਅਤੇ ਜਿੱਥੇ ਵੀ ਕਣਕ ਪੈਦਾ ਹੁੰਦੀ ਹੈ ਉੱਥੇ ਹੋ ਸਕਦੀ ਹੈ। 
+		            ਸਿਰਲੇਖ ਤੋਂ ਪਹਿਲਾਂ ਹਲਕੇ ਲੱਛਣ ਮੌਜੂਦ ਹੋ ਸਕਦੇ ਹਨ, ਜਿਸ ਵਿੱਚ ਪੱਤਿਆਂ ਦੀਆਂ ਪੀਲੀਆਂ ਧਾਰੀਆਂ ਅਤੇ ਸਖ਼ਤ, ਗੂੜ੍ਹੇ ਹਰੇ ਪੱਤੇ ਸ਼ਾਮਲ ਹਨ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- Ustilago ਸਪੀਸੀਜ਼ ਵਰਗੀ ਉੱਲੀ ਕਾਰਨ ਹੁੰਦਾ ਹੈ.''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- smut-ਰੋਧਕ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+		            \n- ਬੀਜਣ ਤੋਂ ਪਹਿਲਾਂ ਬੀਜਾਂ ਨੂੰ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨਾਲ ਇਲਾਜ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਸੰਕਰਮਿਤ ਪੌਦਿਆਂ ਨੂੰ ਨਸ਼ਟ ਕਰੋ।
+		            \n- ਢੁਕਵੀਆਂ ਉੱਲੀਨਾਸ਼ਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।''')
 		
 		        if str(res[0].names[label[0]].title()) == 'Yellow Rust':
-		            st.write('''The characteristic symptom of yellow rust is of parallel rows of yellowish orange coloured pustules on the leaves of adult plants. 
-		            Epidemics of yellow rust often start as individual plants, usually in the autumn.''')
-		            st.markdown('''Causes:
-		            \n- Caused by the fungus Puccinia striiformis.''')
-		            st.markdown('''Preventions:
-		            \n- Plant resistant varieties.
-		            \n- Apply fungicides preventively.''')
-		            st.markdown('''Remedies:
-		            \n- Apply fungicides when symptoms appear.
-		            \n- Remove and destroy infected plant debris.''')
+		            st.write('''ਪੀਲੀ ਜੰਗਾਲ ਦਾ ਵਿਸ਼ੇਸ਼ ਲੱਛਣ ਬਾਲਗ ਪੌਦਿਆਂ ਦੇ ਪੱਤਿਆਂ 'ਤੇ ਪੀਲੇ ਸੰਤਰੀ ਰੰਗ ਦੇ ਛਾਲਿਆਂ ਦੀਆਂ ਸਮਾਨਾਂਤਰ ਕਤਾਰਾਂ ਹਨ। 
+		            ਪੀਲੀ ਜੰਗਾਲ ਦੀ ਮਹਾਂਮਾਰੀ ਅਕਸਰ ਵਿਅਕਤੀਗਤ ਪੌਦਿਆਂ ਦੇ ਰੂਪ ਵਿੱਚ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਆਮ ਤੌਰ 'ਤੇ ਪਤਝੜ ਵਿੱਚ।''')
+		            st.markdown('''ਕਾਰਨ:
+		            \n- Puccinia striformis ਉੱਲੀ ਦੇ ਕਾਰਨ ਹੁੰਦਾ ਹੈ।''')
+		            st.markdown('''ਰੋਕਥਾਮ:
+		            \n- ਰੋਧਕ ਕਿਸਮਾਂ ਬੀਜੋ।
+		            \n- ਰੋਕਥਾਮ ਲਈ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।''')
+		            st.markdown('''ਉਪਾਅ:
+		            \n- ਲੱਛਣ ਦਿਖਾਈ ਦੇਣ 'ਤੇ ਉੱਲੀਨਾਸ਼ਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰੋ।
+		            \n- ਲਾਗ ਵਾਲੇ ਪੌਦਿਆਂ ਦੇ ਮਲਬੇ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ।''')
 
