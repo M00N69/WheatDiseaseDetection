@@ -84,7 +84,7 @@ col1 = st.columns(7)
 with col1[0]:
         st.image('septoria_5.jpeg.png', caption='Septoria')
 with col1[1]:
-        st.image('tan_spot_24.jpeg', caption='Tan Spot'
+        st.image('tan_spot_24.jpeg', caption='Tan Spot')
 with col1[2]:
         st.image('blast_1.jpeg', caption='Blast')
 with col1[3]:
