@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import streamlit_analytics
 
-st.set_page_config(page_title="WheatCheck",page_icon="WheatCheck clear logo",layout="wide")
+st.set_page_config(page_title="WheatCheck",page_icon="WheatCheck clear logo.png",layout="wide")
 
 with streamlit_analytics.track():
 	st.markdown('''
