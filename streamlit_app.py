@@ -52,7 +52,7 @@ with streamlit_analytics.track():
 	    col[1].text('')
 	    col[1].text('')
 	    if selected_language == "English":
-		col[1].markdown("<h1 style='text-align: center; color: white;'>WheatCheck - Wheat Disease Detection</h1>", unsafe_allow_html=True)
+	        col[1].markdown("<h1 style='text-align: center; color: white;'>WheatCheck - Wheat Disease Detection</h1>", unsafe_allow_html=True)
             elif selected_language == "हिंदी":
 		col[1].markdown("<h1 style='text-align: center; color: white;'>वीटचेक - गेहूँ रोग का पता लगाये</h1>", unsafe_allow_html=True)
 	    elif selected_language == "ਪੰਜਾਬੀ":
