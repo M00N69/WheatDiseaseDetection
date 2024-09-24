@@ -947,17 +947,17 @@ else:
 			with col[0]:
 				st.image('aphid_1.jpeg', width=100, caption='Aphid')
 			with col[1]:
-			        st.image('brown_rust_3.jpeg', caption='Brown Rust')
+			        st.image('brown_rust_3.jpeg', width=100, caption='Brown Rust')
 			with col[2]:
-				st.image('mite_26.jpeg', caption='Mite')
+				st.image('mite_26.jpeg', width=100, caption='Mite')
 			with col[3]:
-			        st.image('stem_fly_30.jpeg', caption='Stem Fly')
+			        st.image('stem_fly_30.jpeg', width=100, caption='Stem Fly')
 			with col[4]:
-			        st.image('black_rust_1.jpeg', caption='Black Rust')
+			        st.image('black_rust_1.jpeg', width=100, caption='Black Rust')
 			with col[5]:
-			        st.image('common_root_rot_55.jpeg', caption='Common Root Rot')
+			        st.image('common_root_rot_55.jpeg', width=100, caption='Common Root Rot')
 			with col[6]:
-			        st.image('leaf_blight_38.jpeg', caption='Leaf Blight')
+			        st.image('leaf_blight_38.jpeg', width=100, caption='Leaf Blight')
 				
 			col1 = st.columns(7)
 			with col1[0]:
