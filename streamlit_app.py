@@ -943,36 +943,38 @@ else:
 	
 		# Display disease images with captions
 		if selected_language == "English":
-			col = st.columns(7)
+			col = st.columns(3)
 			with col[0]:
 				st.image('aphid_1.jpeg', width=100, caption='Aphid')
 			with col[1]:
 			        st.image('brown_rust_3.jpeg', width=100, caption='Brown Rust')
 			with col[2]:
 				st.image('mite_26.jpeg', width=100, caption='Mite')
-			with col[3]:
+			col1 = st.columns(3)
+			with col[0]:
 			        st.image('stem_fly_30.jpeg', width=100, caption='Stem Fly')
-			with col[4]:
+			with col[1]:
 			        st.image('black_rust_1.jpeg', width=100, caption='Black Rust')
-			with col[5]:
+			with col[2]:
 			        st.image('common_root_rot_55.jpeg', width=100, caption='Common Root Rot')
-			with col[6]:
+			col2 = st.columns(3)
+			with col[0]:
 			        st.image('leaf_blight_38.jpeg', width=100, caption='Leaf Blight')
-				
-			col1 = st.columns(7)
-			with col1[0]:
-			        st.image('septoria_5.jpeg.png', caption='Septoria')
 			with col1[1]:
-			        st.image('tan_spot_24.jpeg', caption='Tan Spot')
+			        st.image('septoria_5.jpeg.png', caption='Septoria')
 			with col1[2]:
+			        st.image('tan_spot_24.jpeg', caption='Tan Spot')
+			col3 = st.columns(7)
+			with col1[0]:
 			        st.image('blast_1.jpeg', caption='Blast')
-			with col1[3]:
+			with col1[1]:
 			        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-			with col1[4]:
+			with col1[2]:
 			        st.image('mildew_82.png', caption='Mildew')
-			with col1[5]:
+			col1 = st.columns(3)
+			with col1[0]:
 			        st.image('smut_test_0.png', caption='Smut')
-			with col1[6]:
+			with col1[1]:
 			        st.image('yellow_rust_256.png', caption='Yellow Rust')
 			
 		elif selected_language == "हिंदी":
