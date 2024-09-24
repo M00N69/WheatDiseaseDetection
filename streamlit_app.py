@@ -883,17 +883,17 @@ else:
 		# Logo and title section
 		with st.container():
 		    col = st.columns([3,9])
-		    col[0].image('logo.png',width=100)
+		    col[0].image('logo.png')
 		    col[1].text('')
 		    col[1].text('')
 		    col[1].text('')
 		    col[1].text('')
 		    if selected_language == "English":
-		        col[1].markdown("<h1 style='text-align: left; color: white;'>WheatCheck - Wheat Disease Detection</h1>", unsafe_allow_html=True)
+		        col[1].markdown("<h1 style='text-align: center; color: white;'>WheatCheck - Wheat Disease Detection</h1>", unsafe_allow_html=True)
 		    elif selected_language == "हिंदी":
-		        col[1].markdown("<h1 style='text-align: left; color: white;'>वीटचेक - गेहूँ रोग का पता लगाये</h1>", unsafe_allow_html=True)
+		        col[1].markdown("<h1 style='text-align: center; color: white;'>वीटचेक - गेहूँ रोग का पता लगाये</h1>", unsafe_allow_html=True)
 		    elif selected_language == "ਪੰਜਾਬੀ":
-		        col[1].markdown("<h1 style='text-align: left; color: white;'>ਵੀਟਚੈੱਕ - ਕਣਕ ਦੀ ਬਿਮਾਰੀ ਦਾ ਪਤਾ ਲਗਾਓ</h1>", unsafe_allow_html=True)
+		        col[1].markdown("<h1 style='text-align: center; color: white;'>ਵੀਟਚੈੱਕ - ਕਣਕ ਦੀ ਬਿਮਾਰੀ ਦਾ ਪਤਾ ਲਗਾਓ</h1>", unsafe_allow_html=True)
 		
 		if selected_language == "English":
 		    # About the app section
@@ -945,7 +945,7 @@ else:
 		if selected_language == "English":
 			col = st.columns(7)
 			with col[0]:
-				st.image('aphid_1.jpeg', caption='Aphid')
+				st.image('aphid_1.jpeg', width=100, caption='Aphid')
 			with col[1]:
 			        st.image('brown_rust_3.jpeg', caption='Brown Rust')
 			with col[2]:
