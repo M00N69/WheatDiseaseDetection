@@ -882,7 +882,7 @@ else:
 		
 		# Logo and title section
 		with st.container():
-		    col = st.columns([3,9])
+		    col = st.columns([1,3])
 		    col[0].image('logo.png')
 		    col[1].text('')
 		    col[1].text('')
