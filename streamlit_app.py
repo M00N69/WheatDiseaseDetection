@@ -857,9 +857,9 @@ else:
 	    	''',unsafe_allow_html=True)
 		st.markdown('''<style>
 		[data-testid="column"] {
-		    width: calc(33.3333% - 1rem) !important;
-		    flex: 1 1 calc(33.3333% - 1rem) !important;
-		    min-width: calc(33% - 1rem) !important;
+		    width: calc(25% - 1rem) !important;
+		    flex: 1 1 calc(25% - 1rem) !important;
+		    min-width: calc(20% - 1rem) !important;
 		}
 		</style>''', unsafe_allow_html=True)
 		
