@@ -1005,8 +1005,7 @@ else:
 				dict(
 			        title="Yellow Rust",
 			        img="yellow_rust_256.png",
-				),
-			]
+				)]
 			carousel(items=image_items)
 			
 		elif selected_language == "हिंदी":
