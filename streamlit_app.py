@@ -9,7 +9,6 @@ st.set_page_config(page_title="WheatCheck",page_icon="WheatCheck clear logo.png"
 
 screenD = ScreenData(setTimeout=1000)
 screen_d = screenD.st_screen_data()
-st.write(screen_d)
 
 if(screen_d['screen']['height']<screen_d['screen']['width']):
 	with streamlit_analytics.track():
@@ -953,49 +952,75 @@ else:
 			image_items = [
 				dict(
 			        title="Slide 1",
-			        text="APHID",
+			        text="Aphid",
 			        img="aphid_1.jpeg",
 				),
 				dict(
 			        title="Slide 2",
-			        text="BROWN RUST",
+			        text="Brown Rust",
 			        img="brown_rust_3.jpeg",
 				),
+				dict(
+			        title="Slide 3",
+			        text="Mite",
+			        img="mite_26.jpeg",
+				),
+				dict(
+			        title="Slide 4",
+			        text="Stem Fly",
+			        img="stem_fly_30.jpeg",
+				),
+				dict(
+			        title="Slide 5",
+			        text="Black Rust",
+			        img="black_rust_1.jpeg",
+				),
+				dict(
+			        title="Slide 6",
+			        text="Common Root Rot",
+			        img="common_root_rot_55.jpeg",
+				),
+				dict(
+			        title="Slide 7",
+			        text="Leaf Blight",
+			        img="leaf_blight_38.jpeg",
+				),
+				dict(
+			        title="Slide 8",
+			        text="Septoria",
+			        img="septoria_5.jpeg.png",
+				),
+				dict(
+			        title="Slide 9",
+			        text="Tan Spot",
+			        img="tan_spot_24.jpeg",
+				),
+				dict(
+			        title="Slide 10",
+			        text="Blast",
+			        img="blast_1.jpeg",
+				),
+				dict(
+			        title="Slide 11",
+			        text="Fusarium Head Blight",
+			        img="fusarium_head_blight_test_0.png",
+				),
+				dict(
+			        title="Slide 12",
+			        text="Mildew",
+			        img="mildew_82.png",
+				),
+				dict(
+			        title="Slide 13",
+			        text="Smut",
+			        img="smut_test_0.png",
+				),
+				dict(
+			        title="Slide 14",
+			        text="Yellow Rust",
+			        img="yellow_rust_256.png",
+				),
 			]
-			carousel(items=image_items)
-			col = st.columns(3)
-			with col[0]:
-				st.image('aphid_1.jpeg', use_column_width=True, caption='Aphid')
-			with col[1]:
-			        st.image('brown_rust_3.jpeg', use_column_width=True, caption='Brown Rust')
-			with col[2]:
-				st.image('mite_26.jpeg', use_column_width=True, caption='Mite')
-			col1 = st.columns(3)
-			with col1[0]:
-			        st.image('stem_fly_30.jpeg', width=30, caption='Stem Fly')
-			with col1[1]:
-			        st.image('black_rust_1.jpeg', width=30, caption='Black Rust')
-			with col1[2]:
-			        st.image('common_root_rot_55.jpeg', width=30, caption='Common Root Rot')
-			col2 = st.columns(3)
-			with col2[0]:
-			        st.image('leaf_blight_38.jpeg', width=100, caption='Leaf Blight')
-			with col2[1]:
-			        st.image('septoria_5.jpeg.png', caption='Septoria')
-			with col2[2]:
-			        st.image('tan_spot_24.jpeg', caption='Tan Spot')
-			col3 = st.columns(7)
-			with col3[0]:
-			        st.image('blast_1.jpeg', caption='Blast')
-			with col3[1]:
-			        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-			with col3[2]:
-			        st.image('mildew_82.png', caption='Mildew')
-			col4 = st.columns(3)
-			with col4[0]:
-			        st.image('smut_test_0.png', caption='Smut')
-			with col4[1]:
-			        st.image('yellow_rust_256.png', caption='Yellow Rust')
 			
 		elif selected_language == "हिंदी":
 			col = st.columns(7)
