@@ -945,11 +945,11 @@ else:
 		if selected_language == "English":
 			col = st.columns(3)
 			with col[0]:
-				st.image('aphid_1.jpeg', width=100, caption='Aphid')
+				st.image('aphid_1.jpeg', use_column_width=True, caption='Aphid')
 			with col[1]:
-			        st.image('brown_rust_3.jpeg', width=100, caption='Brown Rust')
+			        st.image('brown_rust_3.jpeg', use_column_width=True, caption='Brown Rust')
 			with col[2]:
-				st.image('mite_26.jpeg', width=100, caption='Mite')
+				st.image('mite_26.jpeg', use_column_width=True, caption='Mite')
 			col1 = st.columns(3)
 			with col[0]:
 			        st.image('stem_fly_30.jpeg', width=100, caption='Stem Fly')
