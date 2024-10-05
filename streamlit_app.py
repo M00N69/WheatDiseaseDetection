@@ -962,7 +962,7 @@ else:
 			        img="brown_rust_3.jpeg",
 				),
 			]
-			carousel(items=test_items)
+			carousel(items=image_items)
 			col = st.columns(3)
 			with col[0]:
 				st.image('aphid_1.jpeg', use_column_width=True, caption='Aphid')
