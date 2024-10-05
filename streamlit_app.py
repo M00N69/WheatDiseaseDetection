@@ -951,25 +951,25 @@ else:
 			with col[2]:
 				st.image('mite_26.jpeg', use_column_width=True, caption='Mite')
 			col1 = st.columns(3)
-			with col[0]:
+			with col1[0]:
 			        st.image('stem_fly_30.jpeg', width=30, caption='Stem Fly')
-			with col[1]:
+			with col1[1]:
 			        st.image('black_rust_1.jpeg', width=30, caption='Black Rust')
-			with col[2]:
+			with col1[2]:
 			        st.image('common_root_rot_55.jpeg', width=30, caption='Common Root Rot')
 			col2 = st.columns(3)
-			with col[0]:
+			with col2[0]:
 			        st.image('leaf_blight_38.jpeg', width=100, caption='Leaf Blight')
-			with col1[1]:
+			with col2[1]:
 			        st.image('septoria_5.jpeg.png', caption='Septoria')
-			with col1[2]:
+			with col2[2]:
 			        st.image('tan_spot_24.jpeg', caption='Tan Spot')
 			col3 = st.columns(7)
-			with col1[0]:
+			with col3[0]:
 			        st.image('blast_1.jpeg', caption='Blast')
-			with col1[1]:
+			with col3[1]:
 			        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
-			with col1[2]:
+			with col3[2]:
 			        st.image('mildew_82.png', caption='Mildew')
 			col4 = st.columns(3)
 			with col4[0]:
