@@ -855,7 +855,7 @@ else:
 	    	}
 	    	</style>
 	    	''',unsafe_allow_html=True)
-		st.markdown('''<style>
+		st.write('''<style>
 		[data-testid="column"] {
 		    width: calc(25% - 1rem) !important;
 		    flex: 1 1 calc(25% - 1rem) !important;
