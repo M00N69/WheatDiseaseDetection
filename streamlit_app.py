@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import streamlit as st
 from PIL import Image
 import streamlit_analytics
-
+from streamlit_carousel import carousel
 from st_screen_stats import ScreenData
 
 st.set_page_config(page_title="WheatCheck",page_icon="WheatCheck clear logo.png",layout="wide")
@@ -950,6 +950,19 @@ else:
 	
 		# Display disease images with captions
 		if selected_language == "English":
+			image_items = [
+				dict(
+			        title="Slide 1",
+			        text="APHID",
+			        img="aphid_1.jpeg",
+				),
+				dict(
+			        title="Slide 2",
+			        text="BROWN RUST",
+			        img="brown_rust_3.jpeg",
+				),
+			]
+			carousel(items=test_items)
 			col = st.columns(3)
 			with col[0]:
 				st.image('aphid_1.jpeg', use_column_width=True, caption='Aphid')
