@@ -952,11 +952,11 @@ else:
 				st.image('mite_26.jpeg', use_column_width=True, caption='Mite')
 			col1 = st.columns(3)
 			with col[0]:
-			        st.image('stem_fly_30.jpeg', width=100, caption='Stem Fly')
+			        st.image('stem_fly_30.jpeg', width=30, caption='Stem Fly')
 			with col[1]:
-			        st.image('black_rust_1.jpeg', width=100, caption='Black Rust')
+			        st.image('black_rust_1.jpeg', width=30, caption='Black Rust')
 			with col[2]:
-			        st.image('common_root_rot_55.jpeg', width=100, caption='Common Root Rot')
+			        st.image('common_root_rot_55.jpeg', width=30, caption='Common Root Rot')
 			col2 = st.columns(3)
 			with col[0]:
 			        st.image('leaf_blight_38.jpeg', width=100, caption='Leaf Blight')
