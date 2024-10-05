@@ -971,10 +971,10 @@ else:
 			        st.image('fusarium_head_blight_test_0.png', caption='Fusarium Head Blight')
 			with col1[2]:
 			        st.image('mildew_82.png', caption='Mildew')
-			col1 = st.columns(3)
-			with col1[0]:
+			col4 = st.columns(3)
+			with col4[0]:
 			        st.image('smut_test_0.png', caption='Smut')
-			with col1[1]:
+			with col4[1]:
 			        st.image('yellow_rust_256.png', caption='Yellow Rust')
 			
 		elif selected_language == "हिंदी":
