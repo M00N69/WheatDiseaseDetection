@@ -951,73 +951,59 @@ else:
 		if selected_language == "English":
 			image_items = [
 				dict(
-			        title="Slide 1",
-			        text="Aphid",
+			        title="Aphid",
 			        img="aphid_1.jpeg",
 				),
 				dict(
-			        title="Slide 2",
-			        text="Brown Rust",
+			        title="Brown Rust",
 			        img="brown_rust_3.jpeg",
 				),
 				dict(
-			        title="Slide 3",
-			        text="Mite",
+			        title="Mite",
 			        img="mite_26.jpeg",
 				),
 				dict(
-			        title="Slide 4",
-			        text="Stem Fly",
+			        title="Stem Fly",
 			        img="stem_fly_30.jpeg",
 				),
 				dict(
-			        title="Slide 5",
-			        text="Black Rust",
+			        title="Black Rust",
 			        img="black_rust_1.jpeg",
 				),
 				dict(
-			        title="Slide 6",
-			        text="Common Root Rot",
+			        title="Common Root Rot",
 			        img="common_root_rot_55.jpeg",
 				),
 				dict(
-			        title="Slide 7",
-			        text="Leaf Blight",
+			        title="Leaf Blight",
 			        img="leaf_blight_38.jpeg",
 				),
 				dict(
-			        title="Slide 8",
-			        text="Septoria",
+			        title="Septoria",
 			        img="septoria_5.jpeg.png",
 				),
 				dict(
-			        title="Slide 9",
-			        text="Tan Spot",
+			        title="Tan Spot",
 			        img="tan_spot_24.jpeg",
 				),
 				dict(
-			        title="Slide 10",
-			        text="Blast",
+			        title="Blast",
 			        img="blast_1.jpeg",
 				),
 				dict(
-			        title="Slide 11",
-			        text="Fusarium Head Blight",
+			        title="Fusarium Head Blight",
 			        img="fusarium_head_blight_test_0.png",
 				),
 				dict(
-			        title="Slide 12",
-			        text="Mildew",
+			        title="Mildew",
 			        img="mildew_82.png",
 				),
 				dict(
-			        title="Slide 13",
-			        text="Smut",
+			        title="Smut",
 			        img="smut_test_0.png",
 				),
 				dict(
-			        title="Slide 14",
-			        text="Yellow Rust",
+			        title="Yellow Rust",
 			        img="yellow_rust_256.png",
 				),
 			]
