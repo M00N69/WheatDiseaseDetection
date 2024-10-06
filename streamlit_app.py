@@ -953,14 +953,72 @@ else:
 				dict(
 			        title="Aphid",
 			        img="aphid_1.jpeg",
+				text=""
 				),
 				dict(
 			        title="Brown Rust",
 			        img="brown_rust_3.jpeg",
+				text=""
 				),
 				dict(
 			        title="Mite",
 			        img="mite_26.jpeg",
+				text=""
+				),
+				dict(
+			        title="Stem Fly",
+			        img="stem_fly_30.jpeg",
+				text=""
+				),
+				dict(
+			        title="Black Rust",
+			        img="black_rust_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="Common Root Rot",
+			        img="common_root_rot_55.jpeg",
+				text=""
+				),
+				dict(
+			        title="Leaf Blight",
+			        img="leaf_blight_38.jpeg",
+				text=""
+				),
+				dict(
+			        title="Septoria",
+			        img="septoria_5.png",
+				text=""
+				),
+				dict(
+			        title="Tan Spot",
+			        img="tan_spot_24.jpeg",
+				text=""
+				),
+				dict(
+			        title="Blast",
+			        img="blast_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="Fusarium Head Blight",
+			        img="fusarium_head_blight_test_0.png",
+				text=""
+				),
+				dict(
+			        title="Mildew",
+			        img="mildew_82.png",
+				text=""
+				),
+				dict(
+			        title="Smut",
+			        img="smut_test_0.png",
+				text=""
+				),
+				dict(
+			        title="Yellow Rust",
+			        img="yellow_rust_256.png",
+				text=""
 				),
 				]
 			carousel(items=image_items)
