@@ -962,50 +962,7 @@ else:
 			        title="Mite",
 			        img="mite_26.jpeg",
 				),
-				dict(
-			        title="Stem Fly",
-			        img="stem_fly_30.jpeg",
-				),
-				dict(
-			        title="Black Rust",
-			        img="black_rust_1.jpeg",
-				),
-				dict(
-			        title="Common Root Rot",
-			        img="common_root_rot_55.jpeg",
-				),
-				dict(
-			        title="Leaf Blight",
-			        img="leaf_blight_38.jpeg",
-				),
-				dict(
-			        title="Septoria",
-			        img="septoria_5.png",
-				),
-				dict(
-			        title="Tan Spot",
-			        img="tan_spot_24.jpeg",
-				),
-				dict(
-			        title="Blast",
-			        img="blast_1.jpeg",
-				),
-				dict(
-			        title="Fusarium Head Blight",
-			        img="fusarium_head_blight_test_0.png",
-				),
-				dict(
-			        title="Mildew",
-			        img="mildew_82.png",
-				),
-				dict(
-			        title="Smut",
-			        img="smut_test_0.png",
-				),
-				dict(
-			        title="Yellow Rust",
-			        img="yellow_rust_256.png",
-				),]
+				]
 			carousel(items=image_items)
 			
 		elif selected_language == "हिंदी":
