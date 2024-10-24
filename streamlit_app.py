@@ -680,8 +680,8 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        if conf[0]<0.95:
 				        st.write('ਕੋਈ ਬਿਮਾਰੀ ਨਹੀਂ ਲੱਭੀ')
 			        else:
-				        st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
-				        st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
+					st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
+					st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
 					if str(res[0].names[label[0]].title()) == 'Aphid':
 						st.write('''ਐਫੀਡਜ਼ ਰਸ ਚੂਸਣ ਵਾਲੇ, ਨਰਮ ਸਰੀਰ ਵਾਲੇ ਕੀੜਿਆਂ ਦਾ ਇੱਕ ਸਮੂਹ ਹੈ ਜੋ ਕਿ ਪਿੰਨਹੈੱਡ ਦੇ ਆਕਾਰ ਦੇ ਹੁੰਦੇ ਹਨ।''')
 						st.markdown('''ਕਾਰਨ:
