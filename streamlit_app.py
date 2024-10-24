@@ -682,7 +682,7 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        else:
 				        st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
 				        st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
-					if str(res[0].names[label[0]].title()) == 'Aphid':
+				        if str(res[0].names[label[0]].title()) == 'Aphid':
 						st.write('''ਐਫੀਡਜ਼ ਰਸ ਚੂਸਣ ਵਾਲੇ, ਨਰਮ ਸਰੀਰ ਵਾਲੇ ਕੀੜਿਆਂ ਦਾ ਇੱਕ ਸਮੂਹ ਹੈ ਜੋ ਕਿ ਪਿੰਨਹੈੱਡ ਦੇ ਆਕਾਰ ਦੇ ਹੁੰਦੇ ਹਨ।''')
 						st.markdown('''ਕਾਰਨ:
 						\n- ਐਫੀਡਸ ਰਸ ਚੂਸ ਕੇ ਕਣਕ ਦੇ ਪੌਦਿਆਂ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੇ ਹਨ, ਜਿਸ ਨਾਲ ਝਾੜ ਘੱਟ ਜਾਂਦਾ ਹੈ।''')
