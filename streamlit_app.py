@@ -1353,7 +1353,6 @@ else:
 			        else:
 				        st.write('बीमारी: ' + str(res[0].names[label[0]].title()))
 				        st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
-			        
 					if str(res[0].names[label[0]].title()) == 'Aphid':
 					    st.write('''एफिड्स रस-चूसने वाले, मुलायम शरीर वाले कीड़ों का एक समूह है जो पिनहेड के आकार के होते हैं।''')
 					    st.markdown('''कारण:
