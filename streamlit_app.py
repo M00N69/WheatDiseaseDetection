@@ -1106,37 +1106,79 @@ else:
 			carousel(items=image_items)
 	
 		elif selected_language == "ਪੰਜਾਬੀ":
-			col = st.columns(7)
-			with col[0]:
-				st.image('aphid_1.jpeg', caption='ਐਫੀਡ')
-			with col[1]:
-			        st.image('brown_rust_3.jpeg', caption='ਭੂਰਾ ਜੰਗਾਲ')
-			with col[2]:
-				st.image('mite_26.jpeg', caption='ਮਾਈਟ')
-			with col[3]:
-			        st.image('stem_fly_30.jpeg', caption='ਸਟੈਮ ਫਲਾਈ')
-			with col[4]:
-			        st.image('black_rust_1.jpeg', caption='ਕਾਲਾ ਜੰਗਾਲ')
-			with col[5]:
-			        st.image('common_root_rot_55.jpeg', caption='ਆਮ ਜੜ੍ਹ ਸੜਨ')
-			with col[6]:
-			        st.image('leaf_blight_38.jpeg', caption='ਪੱਤਾ ਝੁਲਸ')
-				
-			col1 = st.columns(7)
-			with col1[0]:
-			        st.image('septoria_5.jpeg.png', caption='ਸੇਪਟੋਰੀਆ')
-			with col1[1]:
-			        st.image('tan_spot_24.jpeg', caption='ਟੈਨ ਸਪਾਟ')
-			with col1[2]:
-			        st.image('blast_1.jpeg', caption='ਬਲਾਸਟ')
-			with col1[3]:
-			        st.image('fusarium_head_blight_test_0.png', caption='ਫੁਸਾਰਿਅਮ ਸਿਰ ਝੁਲਸ')
-			with col1[4]:
-			        st.image('mildew_82.png', caption='ਫ਼ਫ਼ੂੰਦੀ')
-			with col1[5]:
-			        st.image('smut_test_0.png', caption='ਸ੍ਮਟ')
-			with col1[6]:
-			        st.image('yellow_rust_256.png', caption='ਪੀਲੀ ਜੰਗਾਲ')
+			image_items = [
+				dict(
+			        title="ਐਫੀਡ",
+			        img="aphid_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਭੂਰਾ ਜੰਗਾਲ",
+			        img="brown_rust_3.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਮਾਈਟ",
+			        img="mite_26.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਸਟੈਮ ਫਲਾਈ",
+			        img="stem_fly_30.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਕਾਲਾ ਜੰਗਾਲ",
+			        img="black_rust_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਆਮ ਜੜ੍ਹ ਸੜਨ",
+			        img="common_root_rot_55.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਪੱਤਾ ਝੁਲਸ",
+			        img="leaf_blight_38.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਸੇਪਟੋਰੀਆ",
+			        img="septoria_5.png",
+				text=""
+				),
+				dict(
+			        title="ਟੈਨ ਸਪਾਟ",
+			        img="tan_spot_24.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਬਲਾਸਟ",
+			        img="blast_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="ਫੁਸਾਰਿਅਮ ਸਿਰ ਝੁਲਸ",
+			        img="fusarium_head_blight_test_0.png",
+				text=""
+				),
+				dict(
+			        title="ਫ਼ਫ਼ੂੰਦੀ",
+			        img="mildew_82.png",
+				text=""
+				),
+				dict(
+			        title="ਸ੍ਮਟ",
+			        img="smut_test_0.png",
+				text=""
+				),
+				dict(
+			        title="ਪੀਲੀ ਜੰਗਾਲ",
+			        img="yellow_rust_256.png",
+				text=""
+				),
+				]
+			carousel(items=image_items)
 	
 		if selected_language == "English":
 			st.subheader('The Role of Technology in Early Detection')
