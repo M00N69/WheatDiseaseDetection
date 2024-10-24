@@ -253,7 +253,7 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        
 
 			        if int(conf[0]) < 95:
-					st.write('No Disease Detected')
+				    st.write('No Disease Detected')
 				else:
 					st.write('Disease: ' + str(res[0].names[label[0]].title()))
 					st.write('Confidence level: ' + str(conf[0]))
