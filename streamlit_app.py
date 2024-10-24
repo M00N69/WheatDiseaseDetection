@@ -253,10 +253,10 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        
 
 			        if int(conf[0]) < 95:
-				    st.write('No Disease Detected')
+					st.write('No Disease Detected')
 				else:
-				    st.write('Disease: ' + str(res[0].names[label[0]].title()))
-			            st.write('Confidence level: ' + str(conf[0]))
+					st.write('Disease: ' + str(res[0].names[label[0]].title()))
+					st.write('Confidence level: ' + str(conf[0]))
 				        if str(res[0].names[label[0]].title()) == 'Aphid':
 				            st.write('''Aphids are a group of sap-sucking, soft-bodied insects that are about the size of a pinhead.''')
 				            st.markdown('''Causes:
