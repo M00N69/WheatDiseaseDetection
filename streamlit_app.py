@@ -250,7 +250,7 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        label = res[0].probs.top5
 			        conf = res[0].probs.top5conf
 			        conf = conf.tolist()
-			        if int(conf[0]) < 95:
+			        if conf[0] < 0.95:
 				        st.write('No Disease Detected')
 			        else:
 				        st.write('Disease: ' + str(res[0].names[label[0]].title()))
@@ -462,8 +462,9 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        label = res[0].probs.top5
 			        conf = res[0].probs.top5conf
 			        conf = conf.tolist()
-			        st.write('बीमारी: ' + str(res[0].names[label[0]].title()))
-			        st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
+			        #if conf[0]<0.95:
+					
+					
 			        
 			        if str(res[0].names[label[0]].title()) == 'Aphid':
 			            st.write('''एफिड्स रस-चूसने वाले, मुलायम शरीर वाले कीड़ों का एक समूह है जो पिनहेड के आकार के होते हैं।''')
