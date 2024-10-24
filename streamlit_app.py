@@ -464,6 +464,7 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        conf = conf.tolist()
 			        if conf[0]<0.95:
 				        st.write('कोई बीमारी नहीं पाई गई')
+					st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
 			        else:
 				        st.write('बीमारी: ' + str(res[0].names[label[0]].title()))
 				        st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
@@ -676,9 +677,12 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        label = res[0].probs.top5
 			        conf = res[0].probs.top5conf
 			        conf = conf.tolist()
-			        st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
-			        st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
-			        
+			        if conf[0]<0.95:
+					st.write('')
+			    	else:
+					st.write('ਰੋਗ: ' + str(res[0].names[label[0]].title()))
+			        	st.write('ਵਿਸ਼ਵਾਸ ਪੱਧਰ: ' + str(conf[0]))
+				    
 			        if str(res[0].names[label[0]].title()) == 'Aphid':
 			            st.write('''ਐਫੀਡਜ਼ ਰਸ ਚੂਸਣ ਵਾਲੇ, ਨਰਮ ਸਰੀਰ ਵਾਲੇ ਕੀੜਿਆਂ ਦਾ ਇੱਕ ਸਮੂਹ ਹੈ ਜੋ ਕਿ ਪਿੰਨਹੈੱਡ ਦੇ ਆਕਾਰ ਦੇ ਹੁੰਦੇ ਹਨ।''')
 			            st.markdown('''ਕਾਰਨ:
