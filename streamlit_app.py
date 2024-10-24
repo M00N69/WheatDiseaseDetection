@@ -464,7 +464,7 @@ if(screen_d['screen']['height']<screen_d['screen']['width']):
 			        conf = conf.tolist()
 			        if conf[0]<0.95:
 				        st.write('कोई बीमारी नहीं पाई गई')
-					st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
+				        st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
 			        else:
 				        st.write('बीमारी: ' + str(res[0].names[label[0]].title()))
 				        st.write('आत्मविश्वास स्तर: ' + str(conf[0]))
