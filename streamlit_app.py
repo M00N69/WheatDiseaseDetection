@@ -1031,37 +1031,79 @@ else:
 			carousel(items=image_items)
 			
 		elif selected_language == "हिंदी":
-			col = st.columns(7)
-			with col[0]:
-				st.image('aphid_1.jpeg', caption='एफिड')
-			with col[1]:
-			        st.image('brown_rust_3.jpeg', caption='भूरा जंग')
-			with col[2]:
-				st.image('mite_26.jpeg', caption='घुन')
-			with col[3]:
-			        st.image('stem_fly_30.jpeg', caption='तना मक्खी')
-			with col[4]:
-			        st.image('black_rust_1.jpeg', caption='काला जंग')
-			with col[5]:
-			        st.image('common_root_rot_55.jpeg', caption='सामान्य जड़ सड़न')
-			with col[6]:
-			        st.image('leaf_blight_38.jpeg', caption='पत्ती का झुलसा रोग')
-				
-			col1 = st.columns(7)
-			with col1[0]:
-			        st.image('septoria_5.jpeg.png', caption='सेप्टोरिया')
-			with col1[1]:
-			        st.image('tan_spot_24.jpeg', caption='टैन स्पॉट')
-			with col1[2]:
-			        st.image('blast_1.jpeg', caption='ब्लास्ट')
-			with col1[3]:
-			        st.image('fusarium_head_blight_test_0.png', caption='फ्यूजेरियम हेड ब्लाइट')
-			with col1[4]:
-			        st.image('mildew_82.png', caption='फफूंदी')
-			with col1[5]:
-			        st.image('smut_test_0.png', caption='मैल')
-			with col1[6]:
-			        st.image('yellow_rust_256.png', caption='पीला रतुआ')
+			image_items = [
+				dict(
+			        title="एफिड",
+			        img="aphid_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="भूरा जंग",
+			        img="brown_rust_3.jpeg",
+				text=""
+				),
+				dict(
+			        title="घुन",
+			        img="mite_26.jpeg",
+				text=""
+				),
+				dict(
+			        title="तना मक्खी",
+			        img="stem_fly_30.jpeg",
+				text=""
+				),
+				dict(
+			        title="काला जंग",
+			        img="black_rust_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="सामान्य जड़ सड़न",
+			        img="common_root_rot_55.jpeg",
+				text=""
+				),
+				dict(
+			        title="पत्ती का झुलसा रोग",
+			        img="leaf_blight_38.jpeg",
+				text=""
+				),
+				dict(
+			        title="सेप्टोरिया",
+			        img="septoria_5.png",
+				text=""
+				),
+				dict(
+			        title="टैन स्पॉट",
+			        img="tan_spot_24.jpeg",
+				text=""
+				),
+				dict(
+			        title="ब्लास्ट",
+			        img="blast_1.jpeg",
+				text=""
+				),
+				dict(
+			        title="फ्यूजेरियम हेड ब्लाइट",
+			        img="fusarium_head_blight_test_0.png",
+				text=""
+				),
+				dict(
+			        title="फफूंदी",
+			        img="mildew_82.png",
+				text=""
+				),
+				dict(
+			        title="मैल",
+			        img="smut_test_0.png",
+				text=""
+				),
+				dict(
+			        title="पीला रतुआ",
+			        img="yellow_rust_256.png",
+				text=""
+				),
+				]
+			carousel(items=image_items)
 	
 		elif selected_language == "ਪੰਜਾਬੀ":
 			col = st.columns(7)
